@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+.header{
+	height:70px;
+	margin:0 auto;
+}
+
+.head{
+	width: 1048px;
+	height: 70px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+	align-items: center;
+}
+
+.nav_menu{
+	display: inline-block;
+	width: 340px;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+}
+
+ .apkpure_banner{ width:100%; height: 350px; ;background:url(../img/apkpure_banner_bg_v2.jpg) center 0px no-repeat;}
+ .apkpure_banner_text{margin:0 auto; width:550px; padding-right:450px; height:180px; padding-top:75px; color:#fff;}
+ .apkpure_banner_text h1{ padding:15px 0px; font-size:32px; padding-top:30px;}
+ .apkpure_banner_text p{ font-size:18px; line-height:28px; padding:10px 0;}
+ .apkpure_down{ width:500px; padding-top:5px;}
+    .apkpure_down a .fsize{ display: inline-block;direction: ltr;margin-left: 5px;font-size: 14px;}
+    .apkpure_down .down{ padding: 0 10px;height:50px; display: inline-block; color:#fff; background:#34c58c;-moz-border-radius:5px; -webkit-border-radius:5px; border-radius: 5px; line-height:50px; font-size:20px;}
+    .apkpure_down .down:hover{ background-color:#2fb17e; border-bottom:3px #2aa668 solid; height:47px;}
+    .apkpure_down .beta_down{ padding: 0 10px;height:46px; display: inline-block; color:#fff;border:solid 2px white;-moz-border-radius:5px; -webkit-border-radius:5px; border-radius: 5px; line-height:46px; font-size:20px;margin-left: 15px}
+    .apkpure_down .beta_down:hover{ background-color:rgba(255,255,255,.2)}
+    .apkpure_down p{ font-size:14px; width:290px; text-align: center; display: block}
+    .apkpure_down p span{ margin-right:15px;}
+    .apkpure_f_01{ width:auto; height:auto; background:#FFF;}
+    .apkpure_f_01_text{ width:1043px; margin:0 auto; background:url(../img/apkpure_features_01_v1.jpg) center bottom no-repeat; height:580px; padding-top:60px;}
+    .apkpure_f_01_title{ text-align:center; width:900px; margin:0 auto; padding-bottom:120px; }
+    .apkpure_f_01_title h2{ font-size:30px; padding-bottom:20px;}
+    .apkpure_f_01_title p{ font-size:18px; line-height:24px;}
+    .apkpure_f_01_text_left{ width:300px; float:left; text-align:right;}
+    .apkpure_f_01_text_left div{ font-size:24px; padding-bottom:20px;}
+    .apkpure_f_01_text_left p{ font-size:16px; line-height:24px;}
+    .apkpure_f{ width:100%; background:#f7f8f8; height:460px; overflow: hidden;}
+    .apkpure_f_main{ width:1043px; margin:0 auto; position:relative;}
+    .apkpure_f_main_text{ width:500px; padding:0px 20px; padding-top:130px;}
+    .apkpure_f_main_text .title_text{ font-size:30px; line-height:40px; padding-bottom:20px;}
+    .apkpure_f_main_text p{ font-size:16px; line-height:24px;}
+    .apkpure_f_down_a{ padding-top:15px;}
+    .apkpure_f_coming{ width:auto ; height:auto; padding:50px 0px; background:url(https://static.apkpure.com/www/static/imgs/apkpure_features_coming_bg.jpg) center; text-align:center; }
+    .apkpure_f_coming p{ font-size:16px; line-height:24px;}
+    .apkpure_f_coming_fb_a { width:200px; height:40px; padding-top:30px; margin:0 auto;}
+    .apkpure_f_coming_fb_a a{ display:block; width:200px; height:40px; line-height:40px; text-align:center; color:#fff; font-size:16px;  background:#4a65a0;-moz-border-radius:5px; -webkit-border-radius:5px; border-radius: 5px;}
+    .apkpure_f_coming_fb_a a:hover{ background:#36528d;}
+    .apkpure_banner_text>img{  display: inline-block;vertical-align: bottom }
+    .apkpure_no_beta{padding-top: 170px}
+    .apkpure_des_ver{display: inline-block;padding-left: 10px}
+    .apkpure_des_ver>h2{line-height: 70px;font-size: 35px;font-weight: 400}
+    .apkpure_des_ver>div{line-height: 30px}
+    .apkpure_down_versions {margin-top: 15px;}
+    .apkpure_down_versions a{color: #fff; font-size: 14px; margin: 0 10px;}
+    .ar_fix .apkpure_down a .fsize{margin-left: 0;margin-right: 5px}
+    .ar_fix .apkpure_down .beta_down{margin-left: 0;margin-right: 15px}
