@@ -4,7 +4,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<title>未找到页面 &#8211; wordpress学习</title>
+	<title>Contact &#8211; wordpress学习</title>
 <meta name='robots' content='noindex,follow' />
 
 
@@ -13,7 +13,25 @@
 		
 		
 		
-				<link rel='stylesheet' id='layerslider-css'  href='https://tangym123.github.io/wordpress/contents/lib/LayerSlider/static/layerslider/css/layerslider.css' type='text/css' media='all' />
+				
+		<meta property="og:title" content="Contact"/>
+		<meta property="og:type" content="article"/>
+		<meta property="og:url" content="https://tangym123.github.io/wordpress/index.php/press/"/>
+		<meta property="og:site_name" content="wordpress学习"/>
+		<meta property="og:description" content="Contact 
+
+For press enquiries please contact Christian Schabesberger via email.
+Christian Schabesberger
+Email: tnp@schabi.org  
+
+There are also other communication channels if you are not a journalist: 
+
+GitHub 
+
+The development of NewPipe happens on GitHub where you can also find the source"/>
+
+									<meta property="og:image" content="https://tangym123.github.io/wordpress/contents/ui/theme/assets/images/logo.png"/>
+							<link rel='stylesheet' id='layerslider-css'  href='https://tangym123.github.io/wordpress/contents/lib/LayerSlider/static/layerslider/css/layerslider.css' type='text/css' media='all' />
 <link rel='stylesheet' id='contact-form-7-css'  href='https://tangym123.github.io/wordpress/contents/lib/contact-form-7/includes/css/styles.css' type='text/css' media='all' />
 <link rel='stylesheet' id='rs-plugin-settings-css'  href='https://tangym123.github.io/wordpress/contents/lib/revslider/public/assets/css/settings.css' type='text/css' media='all' />
 <style id='rs-plugin-settings-inline-css' type='text/css'>
@@ -45,7 +63,11 @@ var LS_Meta = {"v":"6.7.6"};
 
 
 
-<script type="text/javascript">function setREVStartSize(e){									
+
+
+
+
+		<script type="text/javascript">function setREVStartSize(e){									
 						try{ e.c=jQuery(e.c);var i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;
 							if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})					
 						}catch(d){console.log("Failure at Presize of Slider:"+d)}						
@@ -59,7 +81,7 @@ var LS_Meta = {"v":"6.7.6"};
 
 	</head>
 
-<body class="error404 fusion-image-hovers fusion-body ltr no-mobile-slidingbar no-mobile-totop mobile-logo-pos-left layout-wide-mode fusion-top-header menu-text-align-center mobile-menu-design-modern fusion-show-pagination-text fusion-header-layout-v1 avada-responsive avada-footer-fx-sticky-with-parallax-bg-image fusion-search-form-classic fusion-avatar-square">
+<body class="page-template-default page page-id-219 fusion-image-hovers fusion-body ltr no-mobile-slidingbar no-mobile-totop mobile-logo-pos-left layout-wide-mode has-sidebar fusion-top-header menu-text-align-center mobile-menu-design-modern fusion-show-pagination-text fusion-header-layout-v1 avada-responsive avada-footer-fx-sticky-with-parallax-bg-image fusion-search-form-classic fusion-avatar-square">
 	<a class="skip-link screen-reader-text" href="#content">跳到内容</a>
 				<div id="wrapper" class="">
 		<div id="home" style="position:relative;top:-1px;"></div>
@@ -101,30 +123,44 @@ var LS_Meta = {"v":"6.7.6"};
 		
 						<main id="main" role="main" class="clearfix " style="">
 			<div class="fusion-row" style="">
-<section id="content" class="full-width">
-	<div id="post-404page">
-		<div class="post-content">
-							<div class="fusion-title fusion-title-size-two sep-" style="margin-top:0px;margin-bottom:31px;">
-					<h2 class="title-heading-left">
-						抱歉，您访问的页面不存在！					</h2>
-					<div class="title-sep-container">
-						<div class="title-sep sep-"></div>
+<section id="content" style="float: right;">
+					<div id="post-219" class="post-219 page type-page status-publish hentry">
+			<span class="entry-title rich-snippet-hidden">Contact</span><span class="vcard rich-snippet-hidden"><span class="fn"><a href="https://tangym123.github.io/wordpress/index.php/author/tangyiming/" title="由tangyiming发布" rel="author">tangyiming</a></span></span><span class="updated rich-snippet-hidden">2018-09-09T07:48:25+00:00</span>																			
+			<div class="post-content">
+				<div class="fusion-fullwidth fullwidth-box nonhundred-percent-fullwidth non-hundred-percent-height-scrolling"  style='background-color: rgba(255,255,255,0);background-position: center center;background-repeat: no-repeat;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;margin-bottom: 40px;margin-top: 40px;'><div class="fusion-builder-row fusion-row "><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first fusion-column-last 1_1"  style='margin-top:0px;margin-bottom:20px;'>
+					<div class="fusion-column-wrapper" style="padding: 0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<div class="fusion-text"><h3 class="red start"><span style="font-size: 24px; color: #cd201f; margin-bottom: 45px;">Contact</span></h3>
+</div><div class="fusion-text"><p>For press enquiries please contact Christian Schabesberger via email.</p>
+<p class="large"><strong>Christian Schabesberger</strong></p>
+<p><strong>Email:</strong> <a href="mailto:tnp@schabi.org">tnp@schabi.org</a></p>
+</div><div class="fusion-sep-clear"></div><div class="fusion-separator fusion-full-width-sep sep-none" style="margin-left: auto;margin-right: auto;margin-top:15px;margin-bottom:15px;"></div><div class="fusion-text"><p><span style="font-size: 16px;"><em>There are also other communication channels if you are not a journalist:</em></span></p>
+</div><div class="fusion-text"><p><span style="font-size: 16px;"><strong>GitHub</strong></span></p>
+</div><div class="fusion-text"><p><span style="font-size: 16px;">The development of NewPipe happens on GitHub where you can also find the source code, the bug tracking system and feature requests.</span></p>
+</div><div class="fusion-sep-clear"></div><div class="fusion-separator fusion-full-width-sep sep-none" style="margin-left: auto;margin-right: auto;margin-top:10px;margin-bottom:10px;"></div><div class="fusion-text"><p><span style="font-size: 16px;"><strong>IRC</strong></span></p>
+</div><div class="fusion-text"><p><span style="font-size: 16px;">The IRC freenode channel for direct communication between our developers is <span style="color: #cd201f;"><a style="color: #cd201f;" href="https://webchat.freenode.net/#newpipe">#newpipe</a></span></span></p>
+</div><div class="fusion-sep-clear"></div><div class="fusion-separator fusion-full-width-sep sep-none" style="margin-left: auto;margin-right: auto;margin-top:10px;margin-bottom:10px;"></div><div class="fusion-text"><p><span style="font-size: 16px;"><strong>Mailing list</strong></span></p>
+</div><div class="fusion-text"><p>NewPipe also has a mailing list which is used to make announcements about upcoming meetings and important news: <span style="color: #cd201f;"><a style="color: #cd201f;" href="https://list.schabi.org/cgi-bin/mailman/listinfo/newpipe">newpipe@list.schabi.org</a></span></p>
+</div><div class="fusion-clearfix"></div>
+
 					</div>
-				</div>
-							<div class="fusion-clearfix"></div>
-			<div class="error-page">
-				<div class="fusion-columns fusion-columns-3">
-					<div class="fusion-column col-lg-4 col-md-4 col-sm-4">
-						<div class="error-message">404</div>
-					</div>
-					<div class="fusion-column col-lg-4 col-md-4 col-sm-4 useful-links">
-						<h3>有用的链接</h3>
-						<ul id="fusion-checklist-1" class="fusion-checklist fusion-404-checklist error-menu" style="font-size:14px;line-height:23.8px;"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-395"><span class="icon-wrapper circle-yes" style="background-color:#a0ce4e;font-size:14px;height:23.8px;width:23.8px;margin-right:9.8px;" ><i class="fusion-li-icon fa fa-angle-right" style="color:#ffffff;"></i></span><div class="fusion-li-item-content" style="margin-left:leftpx;"><a href="https://tangym123.github.io/wordpress/">Home</a></div></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-396"><span class="icon-wrapper circle-yes" style="background-color:#a0ce4e;font-size:14px;height:23.8px;width:23.8px;margin-right:9.8px;" ><i class="fusion-li-icon fa fa-angle-right" style="color:#ffffff;"></i></span><div class="fusion-li-item-content" style="margin-left:leftpx;"><a href="https://tangym123.github.io/wordpress/index.php/faq/">FAQ</a></div></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-398"><span class="icon-wrapper circle-yes" style="background-color:#a0ce4e;font-size:14px;height:23.8px;width:23.8px;margin-right:9.8px;" ><i class="fusion-li-icon fa fa-angle-right" style="color:#ffffff;"></i></span><div class="fusion-li-item-content" style="margin-left:leftpx;"><a href="https://tangym123.github.io/wordpress/index.php/all-posts/">Blog</a></div></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-397"><span class="icon-wrapper circle-yes" style="background-color:#a0ce4e;font-size:14px;height:23.8px;width:23.8px;margin-right:9.8px;" ><i class="fusion-li-icon fa fa-angle-right" style="color:#ffffff;"></i></span><div class="fusion-li-item-content" style="margin-left:leftpx;"><a href="https://tangym123.github.io/wordpress/index.php/pressfactsheet/">Factsheet</a></div></li></ul>					</div>
-					<div class="fusion-column col-lg-4 col-md-4 col-sm-4">
-						<h3>搜索本网站</h3>
-						<p>没找到你需要的？试试搜索！</p>
-						<div class="search-page-search-form">
-							<form role="search" class="searchform fusion-search-form" method="get" action="https://tangym123.github.io/wordpress/">
+				</div></div></div>
+							</div>
+																													</div>
+		</section>
+<aside id="sidebar" role="complementary" class="sidebar fusion-widget-area fusion-content-widget-area fusion-sidebar-left fusion-slidingbarwidget1 fusion-sticky-sidebar" style="float: left;" >
+			<div class="fusion-sidebar-inner-content">
+											
+					<section id="text-2" class="fusion-slidingbar-widget-column widget widget_text">			<div class="textwidget"><h3 class="list-group-item active red" style="color: #cd201f; font-size:24px;"><strong>Press Kit</strong></h3>
+</div>
+		<div style="clear:both;"></div></section><section id="nav_menu-5" class="fusion-slidingbar-widget-column widget widget_nav_menu"><div class="menu-press-1-container"><ul id="menu-press-1" class="menu"><li id="menu-item-352" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-352"><a href="https://tangym123.github.io/wordpress/index.php/pressfactsheet/">Factsheet</a></li>
+<li id="menu-item-353" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-353"><a href="https://tangym123.github.io/wordpress/index.php/pressannouncements/">Announcements</a></li>
+</ul></div><div style="clear:both;"></div></section><section id="text-3" class="fusion-slidingbar-widget-column widget widget_text">			<div class="textwidget"><p style="font-size: 16px; color:#333333"><strong>Media</strong></p>
+</div>
+		<div style="clear:both;"></div></section><section id="nav_menu-6" class="fusion-slidingbar-widget-column widget widget_nav_menu"><div class="menu-press-2-container"><ul id="menu-press-2" class="menu"><li id="menu-item-354" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-354"><a href="https://tangym123.github.io/wordpress/index.php/press-logosicons/">Logos&#038;Icons</a></li>
+<li id="menu-item-355" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-355"><a href="https://tangym123.github.io/wordpress/index.php/pressscreenshots/">Screenshots</a></li>
+<li id="menu-item-356" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-356"><a href="https://tangym123.github.io/wordpress/index.php/pressadditional/">AdditionalMedia</a></li>
+<li id="menu-item-357" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-219 current_page_item menu-item-357"><a href="https://tangym123.github.io/wordpress/index.php/press/">Contact</a></li>
+</ul></div><div style="clear:both;"></div></section><section id="search-3" class="fusion-slidingbar-widget-column widget widget_search"><form role="search" class="searchform fusion-search-form" method="get" action="https://tangym123.github.io/wordpress/">
 	<div class="fusion-search-form-content">
 		<div class="fusion-search-field search-field">
 			<label class="screen-reader-text" for="s">搜索：</label>
@@ -135,13 +171,8 @@ var LS_Meta = {"v":"6.7.6"};
 		</div>
 	</div>
 </form>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
+<div style="clear:both;"></div></section>					</div>
+	</aside>
 					
 				</div>  <!-- fusion-row -->
 			</main>  <!-- #main -->
@@ -192,13 +223,13 @@ var LS_Meta = {"v":"6.7.6"};
 				<link rel='stylesheet' id='so-css-Avada-css'  href='https://tangym123.github.io/wordpress/contents/data/so-css/so-css-Avada.css' type='text/css' media='all' />
 <script type='text/javascript'>
 /* <![CDATA[ */
-var wpcf7 = {"apiSettings":{"root":"http:\/\/https://tangym123.github.io\/wordpress\/index.php\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"\u8bf7\u9a8c\u8bc1\u60a8\u4e0d\u662f\u4e00\u4e2a\u673a\u5668\u4eba\u3002"}}};
+var wpcf7 = {"apiSettings":{"root":"http:\/\/localhost\/wordpress\/index.php\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"\u8bf7\u9a8c\u8bc1\u60a8\u4e0d\u662f\u4e00\u4e2a\u673a\u5668\u4eba\u3002"}}};
 /* ]]> */
 </script>
 <script type='text/javascript' src='https://tangym123.github.io/wordpress/contents/lib/contact-form-7/includes/js/scripts.js'></script>
 <!--[if IE 9]>
 <script type='text/javascript' src='https://tangym123.github.io/wordpress/contents/ui/theme/includes/lib/assets/min/js/general/fusion-ie9.js'></script>
 <![endif]-->
-<script type='text/javascript' src='https://tangym123.github.io/wordpress/contents/data/fusion-scripts/1ef349ac06cf8348a02bc6c5df745a2b.min.js'></script>
+<script type='text/javascript' src='https://tangym123.github.io/wordpress/contents/data/fusion-scripts/5e71d8d255cddf6063e5960085b3492d.min.js'></script>
 	</body>
 </html>

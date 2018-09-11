@@ -4,7 +4,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<title>NewPipeBlog &#8211; wordpress学习</title>
+	<title>tangyiming &#8211; wordpress学习</title>
 <meta name='robots' content='noindex,follow' />
 
 
@@ -60,7 +60,7 @@ var LS_Meta = {"v":"6.7.6"};
 
 	</head>
 
-<body class="archive category category-newpipeblog category-3 fusion-image-hovers fusion-body ltr no-mobile-slidingbar no-mobile-totop mobile-logo-pos-left layout-wide-mode fusion-top-header menu-text-align-center mobile-menu-design-modern fusion-show-pagination-text fusion-header-layout-v1 avada-responsive avada-footer-fx-sticky-with-parallax-bg-image fusion-search-form-classic fusion-avatar-square">
+<body class="archive author author-tangyiming author-1 fusion-image-hovers fusion-body ltr no-mobile-slidingbar no-mobile-totop mobile-logo-pos-left layout-wide-mode fusion-top-header menu-text-align-center mobile-menu-design-modern fusion-show-pagination-text fusion-header-layout-v1 avada-responsive avada-footer-fx-sticky-with-parallax-bg-image fusion-search-form-classic fusion-avatar-square">
 	<a class="skip-link screen-reader-text" href="#content">跳到内容</a>
 				<div id="wrapper" class="">
 		<div id="home" style="position:relative;top:-1px;"></div>
@@ -108,7 +108,7 @@ var LS_Meta = {"v":"6.7.6"};
 			</div>
 
 												<div class="fusion-page-title-secondary">
-						<div class="fusion-breadcrumbs"><span itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" href="https://tangym123.github.io/wordpress"><span itemprop="title">主页</span></a></span><span class="fusion-breadcrumb-sep">/</span><span class="breadcrumb-leaf">NewPipeBlog</span></div>					</div>
+						<div class="fusion-breadcrumbs"><span itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" href="https://tangym123.github.io/wordpress"><span itemprop="title">主页</span></a></span><span class="fusion-breadcrumb-sep">/</span><span class="breadcrumb-leaf">tangyiming</span></div>					</div>
 							
 		</div>
 	</div>
@@ -118,7 +118,23 @@ var LS_Meta = {"v":"6.7.6"};
 						<main id="main" role="main" class="clearfix " style="">
 			<div class="fusion-row" style="">
 <section id="content" class="full-width" style="width: 100%;">
-	
+	<div class="fusion-author">
+	<div class="fusion-author-avatar">
+		<img alt='' src='http://2.gravatar.com/avatar/540d12168e7488f77aadd3687e9d54f6?s=82&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/540d12168e7488f77aadd3687e9d54f6?s=164&#038;d=mm&#038;r=g 2x' class='avatar avatar-82 photo' height='82' width='82' />	</div>
+	<div class="fusion-author-info">
+		<h3 class="fusion-author-title vcard">
+			关于 <span class="fn">tangyiming</span>								</h3>
+		该作者尚未填入任何详情<br />到目前为止tangyiming已创建10的博客条目。	</div>
+
+	<div style="clear:both;"></div>
+
+	<div class="fusion-author-social clearfix">
+		<div class="fusion-author-tagline">
+					</div>
+
+			</div>
+</div>
+
 	<div id="posts-container" class="fusion-blog-archive fusion-blog-layout-large-wrapper fusion-clearfix">
 	<div class="fusion-posts-container fusion-blog-layout-large fusion-blog-pagination  fusion-blog-rollover" data-pages="1">
 		
@@ -869,7 +885,7 @@ var LS_Meta = {"v":"6.7.6"};
 				<link rel='stylesheet' id='so-css-Avada-css'  href='https://tangym123.github.io/wordpress/contents/data/so-css/so-css-Avada.css' type='text/css' media='all' />
 <script type='text/javascript'>
 /* <![CDATA[ */
-var wpcf7 = {"apiSettings":{"root":"http:\/\/https://tangym123.github.io\/wordpress\/index.php\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"\u8bf7\u9a8c\u8bc1\u60a8\u4e0d\u662f\u4e00\u4e2a\u673a\u5668\u4eba\u3002"}}};
+var wpcf7 = {"apiSettings":{"root":"http:\/\/localhost\/wordpress\/index.php\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"\u8bf7\u9a8c\u8bc1\u60a8\u4e0d\u662f\u4e00\u4e2a\u673a\u5668\u4eba\u3002"}}};
 /* ]]> */
 </script>
 <script type='text/javascript' src='https://tangym123.github.io/wordpress/contents/lib/contact-form-7/includes/js/scripts.js'></script>

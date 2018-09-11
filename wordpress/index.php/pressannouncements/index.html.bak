@@ -237,7 +237,7 @@ var LS_Meta = {"v":"6.7.6"};
 				<link rel='stylesheet' id='so-css-Avada-css'  href='https://tangym123.github.io/wordpress/contents/data/so-css/so-css-Avada.css' type='text/css' media='all' />
 <script type='text/javascript'>
 /* <![CDATA[ */
-var wpcf7 = {"apiSettings":{"root":"http:\/\/https://tangym123.github.io\/wordpress\/index.php\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"\u8bf7\u9a8c\u8bc1\u60a8\u4e0d\u662f\u4e00\u4e2a\u673a\u5668\u4eba\u3002"}}};
+var wpcf7 = {"apiSettings":{"root":"http:\/\/localhost\/wordpress\/index.php\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"\u8bf7\u9a8c\u8bc1\u60a8\u4e0d\u662f\u4e00\u4e2a\u673a\u5668\u4eba\u3002"}}};
 /* ]]> */
 </script>
 <script type='text/javascript' src='https://tangym123.github.io/wordpress/contents/lib/contact-form-7/includes/js/scripts.js'></script>
