@@ -1,7 +1,19 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordpress/contents/ui/theme\includes\lib\inc\redux\extensions\vendorsupport\vendor_support\vendor\select3\select3_locale_da.js was not found on this server.</p>
-</body></html>
+/**
+ * Select3 Danish translation.
+ *
+ * Author: Anders Jenbo <anders@jenbo.dk>
+ */
+(function ($) {
+    "use strict";
+
+    $.fn.select3.locales['da'] = {
+        formatNoMatches: function () { return "Ingen resultater fundet"; },
+        formatInputTooShort: function (input, min) { var n = min - input.length; return "Angiv venligst " + n + " tegn mere"; },
+        formatInputTooLong: function (input, max) { var n = input.length - max; return "Angiv venligst " + n + " tegn mindre"; },
+        formatSelectionTooBig: function (limit) { return "Du kan kun vælge " + limit + " emne" + (limit === 1 ? "" : "r"); },
+        formatLoadMore: function (pageNumber) { return "Indlæser flere resultater…"; },
+        formatSearching: function () { return "Søger…"; }
+    };
+
+    $.extend($.fn.select3.defaults, $.fn.select3.locales['da']);
+})(jQuery);

@@ -1,7 +1,19 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordpress/contents/ui/theme\includes\lib\inc\redux\extensions\vendorsupport\vendor_support\vendor\select3\select3_locale_ca.js was not found on this server.</p>
-</body></html>
+/**
+ * Select3 Catalan translation.
+ * 
+ * Author: David Planella <david.planella@gmail.com>
+ */
+(function ($) {
+    "use strict";
+
+    $.fn.select3.locales['ca'] = {
+        formatNoMatches: function () { return "No s'ha trobat cap coincidència"; },
+        formatInputTooShort: function (input, min) { var n = min - input.length; return "Introduïu " + n + " caràcter" + (n == 1 ? "" : "s") + " més"; },
+        formatInputTooLong: function (input, max) { var n = input.length - max; return "Introduïu " + n + " caràcter" + (n == 1? "" : "s") + "menys"; },
+        formatSelectionTooBig: function (limit) { return "Només podeu seleccionar " + limit + " element" + (limit == 1 ? "" : "s"); },
+        formatLoadMore: function (pageNumber) { return "S'estan carregant més resultats…"; },
+        formatSearching: function () { return "S'està cercant…"; }
+    };
+
+    $.extend($.fn.select3.defaults, $.fn.select3.locales['ca']);
+})(jQuery);

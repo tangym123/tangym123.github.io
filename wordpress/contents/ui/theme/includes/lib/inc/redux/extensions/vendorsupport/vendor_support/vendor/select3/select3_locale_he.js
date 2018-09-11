@@ -1,7 +1,19 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordpress/contents/ui/theme\includes\lib\inc\redux\extensions\vendorsupport\vendor_support\vendor\select3\select3_locale_he.js was not found on this server.</p>
-</body></html>
+/**
+* Select3 Hebrew translation.
+*
+* Author: Yakir Sitbon <http://www.yakirs.net/>
+*/
+(function ($) {
+    "use strict";
+
+    $.fn.select3.locales['he'] = {
+        formatNoMatches: function () { return "לא נמצאו התאמות"; },
+        formatInputTooShort: function (input, min) { var n = min - input.length; return "נא להזין עוד " + n + " תווים נוספים"; },
+        formatInputTooLong: function (input, max) { var n = input.length - max; return "נא להזין פחות " + n + " תווים"; },
+        formatSelectionTooBig: function (limit) { return "ניתן לבחור " + limit + " פריטים"; },
+        formatLoadMore: function (pageNumber) { return "טוען תוצאות נוספות…"; },
+        formatSearching: function () { return "מחפש…"; }
+    };
+
+    $.extend($.fn.select3.defaults, $.fn.select3.locales['he']);
+})(jQuery);

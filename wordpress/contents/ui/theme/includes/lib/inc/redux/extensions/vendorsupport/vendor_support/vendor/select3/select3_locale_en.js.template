@@ -1,7 +1,20 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordpress/contents/ui/theme\includes\lib\inc\redux\extensions\vendorsupport\vendor_support\vendor\select3\select3_locale_en.js.template was not found on this server.</p>
-</body></html>
+/**
+ * Select3 <Language> translation.
+ *
+ * Author: Your Name <your@email>
+ */
+(function ($) {
+    "use strict";
+
+    $.fn.select3.locales['en'] = {
+        formatMatches: function (matches) { if (matches === 1) { return "One result is available, press enter to select it."; } return matches + " results are available, use up and down arrow keys to navigate."; },
+        formatNoMatches: function () { return "No matches found"; },
+        formatInputTooShort: function (input, min) { var n = min - input.length; return "Please enter " + n + " or more character" + (n == 1 ? "" : "s"); },
+        formatInputTooLong: function (input, max) { var n = input.length - max; return "Please delete " + n + " character" + (n == 1 ? "" : "s"); },
+        formatSelectionTooBig: function (limit) { return "You can only select " + limit + " item" + (limit == 1 ? "" : "s"); },
+        formatLoadMore: function (pageNumber) { return "Loading more results…"; },
+        formatSearching: function () { return "Searching…"; }
+    };
+
+    $.extend($.fn.select3.defaults, $.fn.select3.locales['en']);
+})(jQuery);

@@ -1,7 +1,17 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordpress/contents/ui/theme\includes\lib\inc\redux\extensions\vendorsupport\vendor_support\vendor\select3\select3_locale_pt-PT.js was not found on this server.</p>
-</body></html>
+/**
+ * Select3 Portuguese (Portugal) translation
+ */
+(function ($) {
+    "use strict";
+
+    $.fn.select3.locales['pt-PT'] = {
+        formatNoMatches: function () { return "Nenhum resultado encontrado"; },
+        formatInputTooShort: function (input, min) { var n = min - input.length; return "Introduza " + n + " car" + (n == 1 ? "ácter" : "acteres"); },
+        formatInputTooLong: function (input, max) { var n = input.length - max; return "Apague " + n + " car" + (n == 1 ? "ácter" : "acteres"); },
+        formatSelectionTooBig: function (limit) { return "Só é possível selecionar " + limit + " elemento" + (limit == 1 ? "" : "s"); },
+        formatLoadMore: function (pageNumber) { return "A carregar mais resultados…"; },
+        formatSearching: function () { return "A pesquisar…"; }
+    };
+
+    $.extend($.fn.select3.defaults, $.fn.select3.locales['pt-PT']);
+})(jQuery);

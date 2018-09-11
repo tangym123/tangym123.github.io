@@ -1,7 +1,1 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordpress/contents/ui/theme\assets\min\js\general\avada-elastic-slider.js was not found on this server.</p>
-</body></html>
+jQuery(window).load(function(){var a;jQuery().eislideshow&&(a={autoplay:Boolean(Number(avadaElasticSliderVars.tfes_autoplay))},avadaElasticSliderVars.tfes_animation&&(a.animation=avadaElasticSliderVars.tfes_animation),avadaElasticSliderVars.tfes_interval&&(a.slideshow_interval=avadaElasticSliderVars.tfes_interval),avadaElasticSliderVars.tfes_speed&&(a.speed=avadaElasticSliderVars.tfes_speed),avadaElasticSliderVars.tfes_width&&(a.thumbMaxWidth=avadaElasticSliderVars.tfes_width),jQuery("#ei-slider").eislideshow(a))});

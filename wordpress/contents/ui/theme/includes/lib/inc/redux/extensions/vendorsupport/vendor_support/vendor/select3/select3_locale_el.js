@@ -1,7 +1,19 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordpress/contents/ui/theme\includes\lib\inc\redux\extensions\vendorsupport\vendor_support\vendor\select3\select3_locale_el.js was not found on this server.</p>
-</body></html>
+/**
+ * Select3 Greek translation.
+ * 
+ * @author  Uriy Efremochkin <efremochkin@uriy.me>
+ */
+(function ($) {
+    "use strict";
+
+    $.fn.select3.locales['el'] = {
+        formatNoMatches: function () { return "Δεν βρέθηκαν αποτελέσματα"; },
+        formatInputTooShort: function (input, min) { var n = min - input.length; return "Παρακαλούμε εισάγετε " + n + " περισσότερο" + (n > 1 ? "υς" : "") + " χαρακτήρ" + (n > 1 ? "ες" : "α"); },
+        formatInputTooLong: function (input, max) { var n = input.length - max; return "Παρακαλούμε διαγράψτε " + n + " χαρακτήρ" + (n > 1 ? "ες" : "α"); },
+        formatSelectionTooBig: function (limit) { return "Μπορείτε να επιλέξετε μόνο " + limit + " αντικείμεν" + (limit > 1 ? "α" : "ο"); },
+        formatLoadMore: function (pageNumber) { return "Φόρτωση περισσότερων…"; },
+        formatSearching: function () { return "Αναζήτηση…"; }
+    };
+
+    $.extend($.fn.select3.defaults, $.fn.select3.locales['el']);
+})(jQuery);

@@ -1,7 +1,19 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordpress/contents/ui/theme\includes\lib\inc\redux\extensions\vendorsupport\vendor_support\vendor\select3\select3_locale_ms.js was not found on this server.</p>
-</body></html>
+/**
+ * Select3 Malay translation.
+ * 
+ * Author: Kepoweran <kepoweran@gmail.com>
+ */
+(function ($) {
+    "use strict";
+
+    $.fn.select3.locales['ms'] = {
+        formatNoMatches: function () { return "Tiada padanan yang ditemui"; },
+        formatInputTooShort: function (input, min) { var n = min - input.length; return "Sila masukkan " + n + " aksara lagi"; },
+        formatInputTooLong: function (input, max) { var n = input.length - max; return "Sila hapuskan " + n + " aksara"; },
+        formatSelectionTooBig: function (limit) { return "Anda hanya boleh memilih " + limit + " pilihan"; },
+        formatLoadMore: function (pageNumber) { return "Sedang memuatkan keputusan…"; },
+        formatSearching: function () { return "Mencari…"; }
+    };
+
+    $.extend($.fn.select3.defaults, $.fn.select3.locales['ms']);
+})(jQuery);

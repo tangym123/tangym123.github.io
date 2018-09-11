@@ -1,7 +1,7 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordpress/contents/ui/theme\includes\lib\inc\redux\framework\FusionReduxCore\inc\fields\checkbox\field_checkbox.css.map was not found on this server.</p>
-</body></html>
+{
+"version": 3,
+"mappings": "AACI,qCAAM,CACF,cAAc,CAAE,GAAG,CACnB,KAAK,CAAE,IAAI,CAEX,iDAAY,CACR,UAAU,CAAE,CAAC,CACb,KAAK,CAAE,IAAI,CACX,KAAK,CAAE,GAAG,CACV,KAAK,CAAE,IAAI",
+"sources": ["field_checkbox.scss"],
+"names": [],
+"file": "field_checkbox.css"
+}

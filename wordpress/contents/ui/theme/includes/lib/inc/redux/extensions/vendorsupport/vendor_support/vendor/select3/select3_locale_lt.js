@@ -1,7 +1,26 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordpress/contents/ui/theme\includes\lib\inc\redux\extensions\vendorsupport\vendor_support\vendor\select3\select3_locale_lt.js was not found on this server.</p>
-</body></html>
+/**
+ * Select3 Lithuanian translation.
+ * 
+ * @author  CRONUS Karmalakas <cronus dot karmalakas at gmail dot com>
+ * @author  Uriy Efremochkin <efremochkin@uriy.me>
+ */
+(function ($) {
+    "use strict";
+
+    $.fn.select3.locales['lt'] = {
+        formatNoMatches: function () { return "Atitikmenų nerasta"; },
+        formatInputTooShort: function (input, min) { return "Įrašykite dar" + character(min - input.length); },
+        formatInputTooLong: function (input, max) { return "Pašalinkite" + character(input.length - max); },
+        formatSelectionTooBig: function (limit) {
+        	return "Jūs galite pasirinkti tik " + limit + " element" + ((limit%100 > 9 && limit%100 < 21) || limit%10 == 0 ? "ų" : limit%10 > 1 ? "us" : "ą");
+        },
+        formatLoadMore: function (pageNumber) { return "Kraunama daugiau rezultatų…"; },
+        formatSearching: function () { return "Ieškoma…"; }
+    };
+
+    $.extend($.fn.select3.defaults, $.fn.select3.locales['lt']);
+
+    function character (n) {
+        return " " + n + " simbol" + ((n%100 > 9 && n%100 < 21) || n%10 == 0 ? "ių" : n%10 > 1 ? "ius" : "į");
+    }
+})(jQuery);

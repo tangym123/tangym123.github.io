@@ -1,7 +1,14 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordpress/contents/ui/theme\includes\lib\inc\redux\framework\FusionReduxCore\assets\css\vendor\elusive-icons\scss\_path.scss was not found on this server.</p>
-</body></html>
+/* FONT PATH
+ * -------------------------- */
+
+@font-face {
+  font-family: 'Elusive-Icons';
+  src: url('#{$el-font-path}/elusiveicons-webfont.eot?v=#{$el-version}');
+  src: url('#{$el-font-path}/elusiveicons-webfont.eot?#iefix&v=#{$el-version}') format('embedded-opentype'),
+    //url('#{$el-font-path}/elusiveicons-webfont.woff2?v=#{$el-version}') format('woff2'),
+    url('#{$el-font-path}/elusiveicons-webfont.woff?v=#{$el-version}') format('woff'),
+    url('#{$el-font-path}/elusiveicons-webfont.ttf?v=#{$el-version}') format('truetype'),
+    url('#{$el-font-path}/elusiveicons-webfont.svg?v=#{$el-version}#elusiveiconsregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

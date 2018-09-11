@@ -1,7 +1,17 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordpress/contents/ui/theme\style.css was not found on this server.</p>
-</body></html>
+/*
+Theme Name: Avada
+Description: The #1 selling theme of all time that allows you to build virtually any design style.
+Author: ThemeFusion
+Theme URI: http://avada.theme-fusion.com/
+Author URI: http://themeforest.net/user/ThemeFusion
+Version: 5.6.2
+License: Themeforest Split Licence
+License URI: -
+Text Domain: Avada
+*/
+
+/* Classes needed by Theme Check */
+.wp-caption-text,
+.gallery-caption,
+.bypostauthor {
+}

@@ -1,7 +1,1 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordpress/contents/ui/theme\includes\lib\assets\min\js\general\fusion-patcher-admin-menu-notices.js was not found on this server.</p>
-</body></html>
+jQuery(document).ready(function(){_.each(patcherVars.args,function(a){var b,c,d;void 0!==patcherVars.patches[a.context]&&0<patcherVars.patches[a.context]&&(b=jQuery("#adminmenu .toplevel_page_"+a.parent_slug+" .wp-menu-name"),c=jQuery("#adminmenu .toplevel_page_"+a.parent_slug+' ul.wp-submenu li a[href="admin.php?page='+a.context+'-fusion-patcher"]'),d='<span class="update-plugins count-'+patcherVars.patches[a.context]+'" style="margin-left:5px;"><span class="plugin-count">'+patcherVars.patches[a.context]+"</span></span>",jQuery(d).appendTo(b),jQuery(d).appendTo(c))})});

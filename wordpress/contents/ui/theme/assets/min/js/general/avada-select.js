@@ -1,7 +1,1 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordpress/contents/ui/theme\assets\min\js\general\avada-select.js was not found on this server.</p>
-</body></html>
+function calcSelectArrowDimensions(){jQuery(".avada-select-parent .select-arrow, .gravity-select-parent .select-arrow, .wpcf7-select-parent .select-arrow").filter(":visible").each(function(){0<jQuery(this).prev().innerHeight()&&jQuery(this).css({height:jQuery(this).prev().innerHeight(),width:jQuery(this).prev().innerHeight(),"line-height":jQuery(this).prev().innerHeight()+"px"})})}jQuery(window).load(function(){calcSelectArrowDimensions(),setTimeout(function(){calcSelectArrowDimensions()},100)});

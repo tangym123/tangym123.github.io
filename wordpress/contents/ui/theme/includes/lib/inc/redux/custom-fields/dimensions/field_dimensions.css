@@ -1,7 +1,22 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordpress/contents/ui/theme\includes\lib\inc\redux\custom-fields\dimensions\field_dimensions.css was not found on this server.</p>
-</body></html>
+.fusionredux-dimensions-container select, .fusionredux-dimensions-container .select_wrapper {
+  width: 65px !important;
+  float: left
+}
+.fusionredux-dimensions-container .field-dimensions-input {
+  margin-right: 10px;
+  margin-bottom: 7px
+}
+@media screen and (max-width: 782px) {
+  .fusionredux-dimensions-container .field-dimensions-input input {
+    display: inline-block !important;
+    width: 100px !important
+  }
+  .fusionredux-dimensions-container .field-dimensions-input .add-on {
+    padding: 7px 4px;
+    font-size: 16px;
+    line-height: 1.5
+  }
+  .fusionredux-dimensions-container .select_wrapper {
+    margin-top: 6px
+  }
+}

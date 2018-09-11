@@ -1,7 +1,6 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordpress/contents/ui/theme\assets\css\media\max-sh-cbp-gravity.css was not found on this server.</p>
-</body></html>
+.gform_wrapper .left_label input.medium,
+.gform_wrapper .right_label input.medium,
+.gform_wrapper .left_label select.medium,
+.gform_wrapper .right_label select.medium {
+  width: 35% !important;
+}

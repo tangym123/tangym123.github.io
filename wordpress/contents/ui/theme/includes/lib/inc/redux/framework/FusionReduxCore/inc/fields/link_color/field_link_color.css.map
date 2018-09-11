@@ -1,7 +1,7 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordpress/contents/ui/theme\includes\lib\inc\redux\framework\FusionReduxCore\inc\fields\link_color\field_link_color.css.map was not found on this server.</p>
-</body></html>
+{
+"version": 3,
+"mappings": "AACI,4CAAW,CACP,OAAO,CAAE,YAAY,CACrB,aAAa,CAAE,IAAI,CACnB,cAAc,CAAE,GAAG",
+"sources": ["field_link_color.scss"],
+"names": [],
+"file": "field_link_color.css"
+}

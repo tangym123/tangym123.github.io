@@ -1,7 +1,7 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordpress/contents/ui/theme\includes\lib\inc\redux\framework\FusionReduxCore\inc\fields\section\field_section.css.map was not found on this server.</p>
-</body></html>
+{
+"version": 3,
+"mappings": "AACI,8CAA6B,CACzB,KAAK,CAAE,GAAG,CACV,WAAW,CAAE,EAAE,CAGnB,uEAAsD,CAClD,OAAO,CAAE,cAAc,CAG3B,oBAAG,CACC,UAAU,CAAE,IAAI,CAIhB,mEAAc,CACV,OAAO,CAAE,IAAI,CAGjB,yEAAoB,CAChB,aAAa,CAAE,CAAC",
+"sources": ["field_section.scss"],
+"names": [],
+"file": "field_section.css"
+}

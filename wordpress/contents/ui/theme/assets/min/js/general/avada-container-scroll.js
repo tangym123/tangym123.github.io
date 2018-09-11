@@ -1,7 +1,1 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordpress/contents/ui/theme\assets\min\js\general\avada-container-scroll.js was not found on this server.</p>
-</body></html>
+jQuery.fn.limitScrollToContainer=function(){jQuery(this).bind("mousewheel DOMMouseScroll touchmove",function(a){var b=a.wheelDelta||a.originalEvent&&a.originalEvent.wheelDelta||-a.detail,c=null;"mousewheel"===a.type?c=-.5*b:"DOMMouseScroll"===a.type?c=-40*b:"touchmove"===a.type&&(c=10,a.originalEvent.touches[0].pageY>touchScrollAmount&&(c=-10),touchScrollAmount=a.originalEvent.touches[0].pageY),c&&(a.preventDefault(),jQuery(this).scrollTop(c+jQuery(this).scrollTop()))})};

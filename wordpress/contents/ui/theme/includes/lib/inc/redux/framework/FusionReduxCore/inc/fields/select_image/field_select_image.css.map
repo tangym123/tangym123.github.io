@@ -1,7 +1,7 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordpress/contents/ui/theme\includes\lib\inc\redux\framework\FusionReduxCore\inc\fields\select_image\field_select_image.css.map was not found on this server.</p>
-</body></html>
+{
+"version": 3,
+"mappings": "AAAA,mCAAoC,CAChC,UAAU,CAAE,GAAG,CACf,WAAW,CAAE,GAAG,CAChB,KAAK,CAAE,IAAI,CACX,aAAa,CAAE,CAAC,CAGpB,0BAA2B,CACvB,UAAU,CAAE,KAAK,CACjB,SAAS,CAAE,KAAK,CAChB,OAAO,CAAE,GAAG,CACZ,UAAU,CAAE,IAAI,CAChB,MAAM,CAAE,iBAAiB,CACzB,UAAU,CAAE,OAAO,CACnB,kBAAkB,CAAE,GAAG,CACvB,oBAAoB,CAAE,GAAG,CACzB,qBAAqB,CAAE,GAAG,CAC1B,aAAa,CAAE,GAAG",
+"sources": ["field_select_image.scss"],
+"names": [],
+"file": "field_select_image.css"
+}

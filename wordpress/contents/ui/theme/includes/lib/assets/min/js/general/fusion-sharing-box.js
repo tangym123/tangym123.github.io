@@ -1,7 +1,1 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordpress/contents/ui/theme\includes\lib\assets\min\js\general\fusion-sharing-box.js was not found on this server.</p>
-</body></html>
+jQuery(document).ready(function(){jQuery(".fusion-sharing-box").each(function(){jQuery('meta[property="og:title"]').length||(jQuery("head title").after('<meta property="og:title" content="'+jQuery(this).data("title")+'"/>'),jQuery("head title").after('<meta property="og:description" content="'+jQuery(this).data("description")+'"/>'),jQuery("head title").after('<meta property="og:type" content="article"/>'),jQuery("head title").after('<meta property="og:url" content="'+jQuery(this).data("link")+'"/>'),jQuery("head title").after('<meta property="og:image" content="'+jQuery(this).data("image")+'"/>'))})});

@@ -1,7 +1,7 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordpress/contents/ui/theme\includes\lib\inc\redux\framework\FusionReduxCore\inc\fields\color_gradient\field_color_gradient.css.map was not found on this server.</p>
-</body></html>
+{
+"version": 3,
+"mappings": "AACI,oDAAe,CACX,OAAO,CAAE,YAAY,CAEzB,8CAAS,CACL,YAAY,CAAE,IAAI,CAI1B,oCAAqC,CAE7B,oDAAe,CACX,OAAO,CAAE,KAAK,CACd,UAAU,CAAE,iBAAiB",
+"sources": ["field_color_gradient.scss"],
+"names": [],
+"file": "field_color_gradient.css"
+}

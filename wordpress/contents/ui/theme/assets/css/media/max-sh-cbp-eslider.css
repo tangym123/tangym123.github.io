@@ -1,7 +1,21 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordpress/contents/ui/theme\assets\css\media\max-sh-cbp-eslider.css was not found on this server.</p>
-</body></html>
+.ei-title {
+  position: absolute;
+  right: 0;
+  margin-right: 0;
+  width: 100%;
+  text-align: center;
+  top: 28%;
+  padding: 5px 0;
+}
+.ei-title h2,
+.ei-title h3 {
+  text-align: center;
+}
+#wrapper .ei-title h2 {
+  font-size: 20px;
+  line-height: 24px;
+}
+#wrapper .ei-title h3 {
+  font-size: 15px;
+  line-height: 30px;
+}

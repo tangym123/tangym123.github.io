@@ -1,7 +1,21 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordpress/contents/ui/theme\includes\lib\inc\redux\extensions\vendorsupport\vendor_support\vendor\select3\select3_locale_fa.js was not found on this server.</p>
-</body></html>
+/**
+ * Select3 Persian translation.
+ * 
+ * Author: Ali Choopan <choopan@arsh.co>
+ * Author: Ebrahim Byagowi <ebrahim@gnu.org>
+ */
+(function ($) {
+    "use strict";
+
+    $.fn.select3.locales['fa'] = {
+        formatMatches: function (matches) { return matches + " نتیجه موجود است، کلیدهای جهت بالا و پایین را برای گشتن استفاده کنید."; },
+        formatNoMatches: function () { return "نتیجه‌ای یافت نشد."; },
+        formatInputTooShort: function (input, min) { var n = min - input.length; return "لطفاً " + n + " نویسه بیشتر وارد نمایید"; },
+        formatInputTooLong: function (input, max) { var n = input.length - max; return "لطفاً " + n + " نویسه را حذف کنید."; },
+        formatSelectionTooBig: function (limit) { return "شما فقط می‌توانید " + limit + " مورد را انتخاب کنید"; },
+        formatLoadMore: function (pageNumber) { return "در حال بارگیری موارد بیشتر…"; },
+        formatSearching: function () { return "در حال جستجو…"; }
+    };
+
+    $.extend($.fn.select3.defaults, $.fn.select3.locales['fa']);
+})(jQuery);

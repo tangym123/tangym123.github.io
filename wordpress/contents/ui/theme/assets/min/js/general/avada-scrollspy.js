@@ -1,7 +1,1 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordpress/contents/ui/theme\assets\min\js\general\avada-scrollspy.js was not found on this server.</p>
-</body></html>
+jQuery(document).ready(function(){var a="function"==typeof getAdminbarHeight?getAdminbarHeight():0,b="function"==typeof getStickyHeaderHeight?getStickyHeaderHeight():0;jQuery(window).on("resize scroll",function(){"function"==typeof getAdminbarHeight&&getAdminbarHeight(),"function"==typeof getStickyHeaderHeight&&getStickyHeaderHeight()}),jQuery("body").scrollspy({target:".fusion-menu",offset:parseInt(a+b+1,10)}),jQuery(window).load(function(){var a="function"==typeof getAdminbarHeight?getAdminbarHeight():0,b="function"==typeof getStickyHeaderHeight?getStickyHeaderHeight():0;jQuery("body").data()["bs.scrollspy"].options.offset=parseInt(a+b+1,10)})});

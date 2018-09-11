@@ -1,7 +1,17 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordpress/contents/ui/theme\includes\lib\inc\redux\framework\FusionReduxCore\inc\fields\color_gradient\field_color_gradient.scss was not found on this server.</p>
-</body></html>
+.fusionredux-container-color_gradient {
+    .colorGradient {
+        display: inline-block;
+    }
+    .toLabel {
+        padding-left: 18px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .fusionredux-container-color_gradient {
+        .colorGradient {
+            display: block;
+            text-align: center !important;
+        }
+    }
+}

@@ -1,7 +1,19 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordpress/contents/ui/theme\includes\lib\inc\redux\framework\FusionReduxCore\inc\fields\select_image\field_select_image.scss was not found on this server.</p>
-</body></html>
+.fusionredux-container-select_image {
+    margin-top: 2px;
+    margin-left: 5px;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.fusionredux-preview-image {
+    max-height: 250px;
+    max-width: 250px;
+    padding: 5px;
+    margin-top: 10px;
+    border: 1px solid #e3e3e3;
+    background: #f7f7f7;
+    -moz-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}

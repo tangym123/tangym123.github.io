@@ -1,7 +1,1 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordpress/contents/ui/theme\assets\min\js\general\avada-mobile-image-hover.js was not found on this server.</p>
-</body></html>
+!function(a){"use strict";a.fn.fusion_deactivate_mobile_image_hovers=function(){Modernizr.mq("only screen and (max-width:"+avadaMobileImageVars.side_header_break_point+"px)")?a(this).removeClass("fusion-image-hovers"):a(this).addClass("fusion-image-hovers")}}(jQuery),jQuery(document).ready(function(){jQuery("body").fusion_deactivate_mobile_image_hovers(),jQuery(window).on("resize",function(){jQuery("body").fusion_deactivate_mobile_image_hovers()})});

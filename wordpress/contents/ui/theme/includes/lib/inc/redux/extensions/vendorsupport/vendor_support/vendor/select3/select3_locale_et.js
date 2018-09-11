@@ -1,7 +1,19 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordpress/contents/ui/theme\includes\lib\inc\redux\extensions\vendorsupport\vendor_support\vendor\select3\select3_locale_et.js was not found on this server.</p>
-</body></html>
+/**
+ * Select3 Estonian translation.
+ *
+ * Author: Kuldar Kalvik <kuldar@kalvik.ee>
+ */
+(function ($) {
+    "use strict";
+
+    $.fn.select3.locales['et'] = {
+        formatNoMatches: function () { return "Tulemused puuduvad"; },
+        formatInputTooShort: function (input, min) { var n = min - input.length; return "Sisesta " + n + " täht" + (n == 1 ? "" : "e") + " rohkem"; },
+        formatInputTooLong: function (input, max) { var n = input.length - max; return "Sisesta " + n + " täht" + (n == 1? "" : "e") + " vähem"; },
+        formatSelectionTooBig: function (limit) { return "Saad vaid " + limit + " tulemus" + (limit == 1 ? "e" : "t") + " valida"; },
+        formatLoadMore: function (pageNumber) { return "Laen tulemusi.."; },
+        formatSearching: function () { return "Otsin.."; }
+    };
+
+    $.extend($.fn.select3.defaults, $.fn.select3.locales['et']);
+})(jQuery);

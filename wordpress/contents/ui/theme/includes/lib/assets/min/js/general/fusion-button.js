@@ -1,7 +1,1 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordpress/contents/ui/theme\includes\lib\assets\min\js\general\fusion-button.js was not found on this server.</p>
-</body></html>
+jQuery(window).load(function(){cssua.ua.ios&&7===parseInt(cssua.ua.ios,10)&&jQuery(".button-icon-divider-left, .button-icon-divider-right").each(function(){var a=jQuery(this).parent().outerHeight();jQuery(this).css("height",a)})});

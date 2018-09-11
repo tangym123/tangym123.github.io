@@ -1,7 +1,17 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordpress/contents/ui/theme\assets\admin\js\avada-reset-caches.js was not found on this server.</p>
-</body></html>
+/* global avadaReduxResetCaches */
+function fusionResetCaches( e ) { // jshint ignore:line
+	var data = {
+			action: 'avada_reset_all_caches'
+		},
+		confirm = window.confirm( avadaReduxResetCaches.confirm );
+
+	e.preventDefault();
+
+	if ( true === confirm ) {
+		jQuery( '.spinner.fusion-spinner' ).addClass( 'is-active' );
+		jQuery.post( avadaReduxResetCaches.ajaxurl, data, function() {
+			jQuery( '.spinner.fusion-spinner' ).removeClass( 'is-active' );
+			alert( avadaReduxResetCaches.success ); // jshint ignore: line
+		} );
+	}
+}

@@ -1,7 +1,1 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordpress/contents/ui/theme\includes\lib\assets\min\js\general\fusion-waypoints.js was not found on this server.</p>
-</body></html>
+function getAdminbarHeight(){var a=0;return jQuery("#wpadminbar").length&&(a=parseInt(jQuery("#wpadminbar").outerHeight(),10)),a}function getWaypointOffset(a){var b,c,d=a.data("animationoffset");return void 0===d&&(d="bottom-in-view"),"top-out-of-view"===d&&(b=getAdminbarHeight(),c="function"===getWaypointTopOffset?getWaypointTopOffset():0,d=b+c),d}jQuery(window).load(function(){setTimeout(function(){jQuery.waypoints("viewportHeight")},300)});

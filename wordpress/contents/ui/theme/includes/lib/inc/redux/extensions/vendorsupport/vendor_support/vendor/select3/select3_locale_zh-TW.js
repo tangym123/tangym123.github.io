@@ -1,7 +1,16 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordpress/contents/ui/theme\includes\lib\inc\redux\extensions\vendorsupport\vendor_support\vendor\select3\select3_locale_zh-TW.js was not found on this server.</p>
-</body></html>
+/**
+ * Select3 Traditional Chinese translation
+ */
+(function ($) {
+    "use strict";
+    $.fn.select3.locales['zh-TW'] = {
+        formatNoMatches: function () { return "沒有找到相符的項目"; },
+        formatInputTooShort: function (input, min) { var n = min - input.length; return "請再輸入" + n + "個字元";},
+        formatInputTooLong: function (input, max) { var n = input.length - max; return "請刪掉" + n + "個字元";},
+        formatSelectionTooBig: function (limit) { return "你只能選擇最多" + limit + "項"; },
+        formatLoadMore: function (pageNumber) { return "載入中…"; },
+        formatSearching: function () { return "搜尋中…"; }
+    };
+
+    $.extend($.fn.select3.defaults, $.fn.select3.locales['zh-TW']);
+})(jQuery);

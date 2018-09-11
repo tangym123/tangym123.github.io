@@ -1,7 +1,20 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordpress/contents/ui/theme\includes\lib\inc\redux\framework\FusionReduxCore\assets\css\vendor\elusive-icons\scss\_rotated-flipped.scss was not found on this server.</p>
-</body></html>
+// Rotated & Flipped Icons
+// -------------------------
+
+.#{$el-css-prefix}-rotate-90  { @include el-icon-rotate(90deg, 1);  }
+.#{$el-css-prefix}-rotate-180 { @include el-icon-rotate(180deg, 2); }
+.#{$el-css-prefix}-rotate-270 { @include el-icon-rotate(270deg, 3); }
+
+.#{$el-css-prefix}-flip-horizontal { @include el-icon-flip(-1, 1, 0); }
+.#{$el-css-prefix}-flip-vertical   { @include el-icon-flip(1, -1, 2); }
+
+// Hook for IE8-9
+// -------------------------
+
+:root .#{$el-css-prefix}-rotate-90,
+:root .#{$el-css-prefix}-rotate-180,
+:root .#{$el-css-prefix}-rotate-270,
+:root .#{$el-css-prefix}-flip-horizontal,
+:root .#{$el-css-prefix}-flip-vertical {
+  filter: none;
+}

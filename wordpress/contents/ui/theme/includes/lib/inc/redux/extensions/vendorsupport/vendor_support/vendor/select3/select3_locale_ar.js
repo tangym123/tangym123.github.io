@@ -1,7 +1,19 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordpress/contents/ui/theme\includes\lib\inc\redux\extensions\vendorsupport\vendor_support\vendor\select3\select3_locale_ar.js was not found on this server.</p>
-</body></html>
+/**
+ * Select3 Arabic translation.
+ *
+ * Author: Adel KEDJOUR <adel@kedjour.com>
+ */
+(function ($) {
+    "use strict";
+
+    $.fn.select3.locales['ar'] = {
+        formatNoMatches: function () { return "لم يتم العثور على مطابقات"; },
+        formatInputTooShort: function (input, min) { var n = min - input.length; if (n == 1){ return "الرجاء إدخال حرف واحد على الأكثر"; } return n == 2 ? "الرجاء إدخال حرفين على الأكثر" : "الرجاء إدخال " + n + " على الأكثر"; },
+        formatInputTooLong: function (input, max) { var n = input.length - max; if (n == 1){ return "الرجاء إدخال حرف واحد على الأقل"; } return n == 2 ? "الرجاء إدخال حرفين على الأقل" : "الرجاء إدخال " + n + " على الأقل "; },
+        formatSelectionTooBig: function (limit) { if (limit == 1){ return "يمكنك أن تختار إختيار واحد فقط"; } return limit == 2 ? "يمكنك أن تختار إختيارين فقط" : "يمكنك أن تختار " + limit + " إختيارات فقط"; },
+        formatLoadMore: function (pageNumber) { return "تحميل المزيد من النتائج…"; },
+        formatSearching: function () { return "البحث…"; }
+    };
+
+    $.extend($.fn.select3.defaults, $.fn.select3.locales['ar']);
+})(jQuery);

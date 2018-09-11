@@ -1,7 +1,1 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordpress/contents/ui/theme\includes\lib\assets\min\js\general\fusion-non-responsive.js was not found on this server.</p>
-</body></html>
+jQuery(window).load(function(){var a,b;a=["col-sm-0","col-sm-1","col-sm-2","col-sm-3","col-sm-4","col-sm-5","col-sm-6","col-sm-7","col-sm-8","col-sm-9","col-sm-10","col-sm-11","col-sm-12"],jQuery(".col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12").each(function(){for(b=0;b<a.length;b++)-1!==jQuery(this).attr("class").indexOf(a[b])&&jQuery(this).addClass("col-xs-"+b)})});

@@ -1,7 +1,45 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordpress/contents/ui/theme\includes\lib\inc\redux\extensions\vendorsupport\vendor_support\vendor\select3\select3_locale_gl.js was not found on this server.</p>
-</body></html>
+/**
+ * Select3 Galician translation
+ * 
+ * Author: Leandro Regueiro <leandro.regueiro@gmail.com>
+ */
+(function ($) {
+    "use strict";
+
+    $.fn.select3.locales['gl'] = {
+        formatNoMatches: function () {
+            return "Non se atoparon resultados";
+        },
+        formatInputTooShort: function (input, min) {
+            var n = min - input.length;
+            if (n === 1) {
+                return "Engada un carácter";
+            } else {
+                return "Engada " + n + " caracteres";
+            }
+        },
+        formatInputTooLong: function (input, max) {
+            var n = input.length - max;
+            if (n === 1) {
+                return "Elimine un carácter";
+            } else {
+                return "Elimine " + n + " caracteres";
+            }
+        },
+        formatSelectionTooBig: function (limit) {
+            if (limit === 1 ) {
+                return "Só pode seleccionar un elemento";
+            } else {
+                return "Só pode seleccionar " + limit + " elementos";
+            }
+        },
+        formatLoadMore: function (pageNumber) {
+            return "Cargando máis resultados…";
+        },
+        formatSearching: function () {
+            return "Buscando…";
+        }
+    };
+
+    $.extend($.fn.select3.defaults, $.fn.select3.locales['gl']);
+})(jQuery);

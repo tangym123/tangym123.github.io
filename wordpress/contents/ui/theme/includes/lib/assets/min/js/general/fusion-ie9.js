@@ -1,7 +1,1 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordpress/contents/ui/theme\includes\lib\assets\min\js\general\fusion-ie9.js was not found on this server.</p>
-</body></html>
+jQuery(document).ready(function(){jQuery("body").each(function(){var a='<style type="text/css">';jQuery(this).find("style").each(function(){a+=jQuery(this).html(),jQuery(this).remove()}),a+="</style>",jQuery(this).prepend(a)})});

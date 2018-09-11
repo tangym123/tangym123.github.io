@@ -1,7 +1,1 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordpress/contents/ui/theme\includes\lib\assets\min\js\general\fusion-admin-notice.js was not found on this server.</p>
-</body></html>
+!function(){jQuery(function(){jQuery(".notice.fusion-is-dismissible button.notice-dismiss").click(function(a){var b=jQuery(this),c=b.parent().data();a.preventDefault(),jQuery.post(ajaxurl,{data:c,action:"fusion_dismiss_admin_notice",nonce:fusionAdminNoticesNonce})})})}(jQuery);

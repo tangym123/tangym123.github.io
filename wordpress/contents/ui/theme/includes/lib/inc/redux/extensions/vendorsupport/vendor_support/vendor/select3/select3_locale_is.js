@@ -1,7 +1,17 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordpress/contents/ui/theme\includes\lib\inc\redux\extensions\vendorsupport\vendor_support\vendor\select3\select3_locale_is.js was not found on this server.</p>
-</body></html>
+/**
+ * Select3 Icelandic translation.
+ */
+(function ($) {
+    "use strict";
+
+    $.fn.select3.locales['is'] = {
+        formatNoMatches: function () { return "Ekkert fannst"; },
+        formatInputTooShort: function (input, min) { var n = min - input.length; return "Vinsamlegast skrifið " + n + " staf" + (n > 1 ? "i" : "") + " í viðbót"; },
+        formatInputTooLong: function (input, max) { var n = input.length - max; return "Vinsamlegast styttið texta um " + n + " staf" + (n > 1 ? "i" : ""); },
+        formatSelectionTooBig: function (limit) { return "Þú getur aðeins valið " + limit + " atriði"; },
+        formatLoadMore: function (pageNumber) { return "Sæki fleiri niðurstöður…"; },
+        formatSearching: function () { return "Leita…"; }
+    };
+
+    $.extend($.fn.select3.defaults, $.fn.select3.locales['is']);
+})(jQuery);

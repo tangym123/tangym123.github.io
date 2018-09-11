@@ -1,7 +1,20 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordpress/contents/ui/theme\assets\css\media\min-768-max-1024-l.css was not found on this server.</p>
-</body></html>
+.fullwidth-box {
+  background-attachment: scroll !important;
+}
+.fullwidth-box .fullwidth-faded {
+  background-attachment: scroll !important;
+}
+.avada-footer-fx-bg-parallax .fusion-footer-widget-area {
+  background-attachment: static;
+  margin: 0;
+}
+.avada-footer-fx-bg-parallax #main {
+  margin-bottom: 0;
+}
+#main,
+.fullwidth-box,
+.fusion-footer-widget-area,
+.page-title-bar,
+body {
+  background-attachment: scroll !important;
+}

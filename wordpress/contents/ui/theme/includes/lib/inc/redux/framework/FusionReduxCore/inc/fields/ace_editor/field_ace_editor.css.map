@@ -1,7 +1,7 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordpress/contents/ui/theme\includes\lib\inc\redux\framework\FusionReduxCore\inc\fields\ace_editor\field_ace_editor.css.map was not found on this server.</p>
-</body></html>
+{
+"version": 3,
+"mappings": "AACI,8CAAa,CACT,QAAQ,CAAE,MAAM,CAGpB,6CAAY,CACR,MAAM,CAAE,KAAK,CACb,qBAAqB,CAAE,GAAG,CAC1B,kBAAkB,CAAE,GAAG,CACvB,aAAa,CAAE,GAAG,CAGtB,6CAAY,CACR,OAAO,CAAE,YAAY",
+"sources": ["field_ace_editor.scss"],
+"names": [],
+"file": "field_ace_editor.css"
+}

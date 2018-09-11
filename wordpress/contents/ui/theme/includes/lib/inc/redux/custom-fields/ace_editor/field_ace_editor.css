@@ -1,7 +1,26 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordpress/contents/ui/theme\includes\lib\inc\redux\custom-fields\ace_editor\field_ace_editor.css was not found on this server.</p>
-</body></html>
+.fusionredux-container-ace_editor .ace-wrapper {
+  position: static
+}
+
+.fusionredux-container-ace_editor .ace_editor {
+  height: 200px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px
+}
+
+.fusionredux-container-ace_editor .ace_gutter {
+  z-index: 1 !important
+}
+
+.fusionredux-container-ace_editor .ace_search_field {
+  height: 22px !important;
+}
+
+.fusionredux-container-ace_editor .ace_search_form button[action="findAll"] {
+  display: none;
+}
+
+.fusionredux-container-ace_editor .ace_search_options {
+  display: none;
+}

@@ -1,7 +1,16 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordpress/contents/ui/theme\includes\lib\inc\redux\framework\FusionReduxCore\assets\css\vendor\elusive-icons\scss\_bordered-pulled.scss was not found on this server.</p>
-</body></html>
+// Bordered & Pulled
+// -------------------------
+
+.#{$el-css-prefix}-border {
+  padding: .2em .25em .15em;
+  border: solid .08em $el-border-color;
+  border-radius: .1em;
+}
+
+.pull-right { float: right; }
+.pull-left { float: left; }
+
+.#{$el-css-prefix} {
+  &.pull-left { margin-right: .3em; }
+  &.pull-right { margin-left: .3em; }
+}
