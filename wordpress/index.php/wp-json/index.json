@@ -1,8 +1,8 @@
 {
     "name": "wordpress学习",
     "description": "又一个WordPress站点",
-    "url": "http://localhost/wordpress",
-    "home": "http://localhost/wordpress",
+    "url": "https://tangym123.github.io/wordpress",
+    "home": "https://tangym123.github.io/wordpress",
     "gmt_offset": 8,
     "timezone_string": "Asia/Shanghai",
     "namespaces": [
@@ -31,7 +31,7 @@
                 }
             ],
             "_links": {
-                "self": "http://localhost/wordpress/index.php/wp-json/"
+                "self": "https://tangym123.github.io/wordpress/index.php/wp-json/"
             }
         },
         "/oembed/1.0": {
@@ -57,7 +57,7 @@
                 }
             ],
             "_links": {
-                "self": "http://localhost/wordpress/index.php/wp-json/oembed/1.0"
+                "self": "https://tangym123.github.io/wordpress/index.php/wp-json/oembed/1.0"
             }
         },
         "/oembed/1.0/embed": {
@@ -86,7 +86,7 @@
                 }
             ],
             "_links": {
-                "self": "http://localhost/wordpress/index.php/wp-json/oembed/1.0/embed"
+                "self": "https://tangym123.github.io/wordpress/index.php/wp-json/oembed/1.0/embed"
             }
         },
         "/oembed/1.0/proxy": {
@@ -136,7 +136,7 @@
                 }
             ],
             "_links": {
-                "self": "http://localhost/wordpress/index.php/wp-json/oembed/1.0/proxy"
+                "self": "https://tangym123.github.io/wordpress/index.php/wp-json/oembed/1.0/proxy"
             }
         },
         "/contact-form-7/v1": {
@@ -162,7 +162,7 @@
                 }
             ],
             "_links": {
-                "self": "http://localhost/wordpress/index.php/wp-json/contact-form-7/v1"
+                "self": "https://tangym123.github.io/wordpress/index.php/wp-json/contact-form-7/v1"
             }
         },
         "/contact-form-7/v1/contact-forms": {
@@ -186,7 +186,7 @@
                 }
             ],
             "_links": {
-                "self": "http://localhost/wordpress/index.php/wp-json/contact-form-7/v1/contact-forms"
+                "self": "https://tangym123.github.io/wordpress/index.php/wp-json/contact-form-7/v1/contact-forms"
             }
         },
         "/contact-form-7/v1/contact-forms/(?P<id>\\d+)": {
@@ -272,7 +272,7 @@
                 }
             ],
             "_links": {
-                "self": "http://localhost/wordpress/index.php/wp-json/wp/v2"
+                "self": "https://tangym123.github.io/wordpress/index.php/wp-json/wp/v2"
             }
         },
         "/wp/v2/posts": {
@@ -601,7 +601,7 @@
                 }
             ],
             "_links": {
-                "self": "http://localhost/wordpress/index.php/wp-json/wp/v2/posts"
+                "self": "https://tangym123.github.io/wordpress/index.php/wp-json/wp/v2/posts"
             }
         },
         "/wp/v2/posts/(?P<id>[\\d]+)": {
@@ -1171,7 +1171,7 @@
                 }
             ],
             "_links": {
-                "self": "http://localhost/wordpress/index.php/wp-json/wp/v2/pages"
+                "self": "https://tangym123.github.io/wordpress/index.php/wp-json/wp/v2/pages"
             }
         },
         "/wp/v2/pages/(?P<id>[\\d]+)": {
@@ -1704,7 +1704,7 @@
                 }
             ],
             "_links": {
-                "self": "http://localhost/wordpress/index.php/wp-json/wp/v2/media"
+                "self": "https://tangym123.github.io/wordpress/index.php/wp-json/wp/v2/media"
             }
         },
         "/wp/v2/media/(?P<id>[\\d]+)": {
@@ -1885,7 +1885,7 @@
                 }
             ],
             "_links": {
-                "self": "http://localhost/wordpress/index.php/wp-json/wp/v2/types"
+                "self": "https://tangym123.github.io/wordpress/index.php/wp-json/wp/v2/types"
             }
         },
         "/wp/v2/types/(?P<type>[\\w-]+)": {
@@ -1945,7 +1945,7 @@
                 }
             ],
             "_links": {
-                "self": "http://localhost/wordpress/index.php/wp-json/wp/v2/statuses"
+                "self": "https://tangym123.github.io/wordpress/index.php/wp-json/wp/v2/statuses"
             }
         },
         "/wp/v2/statuses/(?P<status>[\\w-]+)": {
@@ -2010,7 +2010,7 @@
                 }
             ],
             "_links": {
-                "self": "http://localhost/wordpress/index.php/wp-json/wp/v2/taxonomies"
+                "self": "https://tangym123.github.io/wordpress/index.php/wp-json/wp/v2/taxonomies"
             }
         },
         "/wp/v2/taxonomies/(?P<taxonomy>[\\w-]+)": {
@@ -2188,7 +2188,7 @@
                 }
             ],
             "_links": {
-                "self": "http://localhost/wordpress/index.php/wp-json/wp/v2/categories"
+                "self": "https://tangym123.github.io/wordpress/index.php/wp-json/wp/v2/categories"
             }
         },
         "/wp/v2/categories/(?P<id>[\\d]+)": {
@@ -2422,7 +2422,7 @@
                 }
             ],
             "_links": {
-                "self": "http://localhost/wordpress/index.php/wp-json/wp/v2/tags"
+                "self": "https://tangym123.github.io/wordpress/index.php/wp-json/wp/v2/tags"
             }
         },
         "/wp/v2/tags/(?P<id>[\\d]+)": {
@@ -2709,7 +2709,7 @@
                 }
             ],
             "_links": {
-                "self": "http://localhost/wordpress/index.php/wp-json/wp/v2/users"
+                "self": "https://tangym123.github.io/wordpress/index.php/wp-json/wp/v2/users"
             }
         },
         "/wp/v2/users/(?P<id>[\\d]+)": {
@@ -2987,7 +2987,7 @@
                 }
             ],
             "_links": {
-                "self": "http://localhost/wordpress/index.php/wp-json/wp/v2/users/me"
+                "self": "https://tangym123.github.io/wordpress/index.php/wp-json/wp/v2/users/me"
             }
         },
         "/wp/v2/comments": {
@@ -3231,7 +3231,7 @@
                 }
             ],
             "_links": {
-                "self": "http://localhost/wordpress/index.php/wp-json/wp/v2/comments"
+                "self": "https://tangym123.github.io/wordpress/index.php/wp-json/wp/v2/comments"
             }
         },
         "/wp/v2/comments/(?P<id>[\\d]+)": {
@@ -3485,7 +3485,7 @@
                 }
             ],
             "_links": {
-                "self": "http://localhost/wordpress/index.php/wp-json/wp/v2/settings"
+                "self": "https://tangym123.github.io/wordpress/index.php/wp-json/wp/v2/settings"
             }
         }
     },
