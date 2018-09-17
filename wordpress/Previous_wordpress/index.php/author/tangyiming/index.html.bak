@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html class="avada-html-layout-wide avada-html-has-sticky-footer" lang="zh-CN" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>tangyiming &#8211; wordpress学习</title>
+<meta name='robots' content='noindex,follow' />
+
+
+
+		
+		
+		
+		
+				
+<link rel='stylesheet' id='layerslider-css'  href='https://tangym123.github.io/wordpress/contents/lib/LayerSlider/static/layerslider/css/layerslider.css' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://tangym123.github.io/wordpress/contents/lib/contact-form-7/includes/css/styles.css' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='https://tangym123.github.io/wordpress/contents/lib/revslider/public/assets/css/settings.css' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+#rs-demo-id {}
+</style>
+<link rel='stylesheet' id='avada-stylesheet-css'  href='https://tangym123.github.io/wordpress/contents/ui/theme/assets/css/style.min.css' type='text/css' media='all' />
+<!--[if lte IE 9]>
+<link rel='stylesheet' id='avada-IE-fontawesome-css'  href='https://tangym123.github.io/wordpress/contents/ui/theme/includes/lib/assets/fonts/fontawesome/font-awesome.min.css' type='text/css' media='all' />
+<![endif]-->
+<!--[if IE]>
+<link rel='stylesheet' id='avada-IE-css'  href='https://tangym123.github.io/wordpress/contents/ui/theme/assets/css/ie.min.css' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='fusion-dynamic-css-css'  href='https://tangym123.github.io/wordpress/contents/data/fusion-styles/0e0afb48fbbc752903ae6282b25b2f35.min.css' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var LS_Meta = {"v":"6.7.6"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://tangym123.github.io/wordpress/contents/lib/LayerSlider/static/layerslider/js/greensock.js'></script>
+<script type='text/javascript' src='https://tangym123.github.io/wordpress/inc/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='https://tangym123.github.io/wordpress/inc/js/jquery/jquery-migrate.min.js'></script>
+<script type='text/javascript' src='https://tangym123.github.io/wordpress/contents/lib/LayerSlider/static/layerslider/js/layerslider.kreaturamedia.jquery.js'></script>
+<script type='text/javascript' src='https://tangym123.github.io/wordpress/contents/lib/LayerSlider/static/layerslider/js/layerslider.transitions.js'></script>
+<script type='text/javascript' src='https://tangym123.github.io/wordpress/contents/lib/revslider/public/assets/js/jquery.themepunch.tools.min.js'></script>
+<script type='text/javascript' src='https://tangym123.github.io/wordpress/contents/lib/revslider/public/assets/js/jquery.themepunch.revolution.min.js'></script>
+
+<!-- LayerSlider updates and docs at: https://layerslider.kreaturamedia.com -->
+
+
+
+
+		<script type="text/javascript">function setREVStartSize(e){									
+						try{ e.c=jQuery(e.c);var i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;
+							if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})					
+						}catch(d){console.log("Failure at Presize of Slider:"+d)}						
+					};</script>
+
+		
+	<script type="text/javascript">
+		var doc = document.documentElement;
+		doc.setAttribute('data-useragent', navigator.userAgent);
+	</script>
+
+	</head>
+
+<body class="archive author author-tangyiming author-1 fusion-image-hovers fusion-body ltr no-mobile-slidingbar no-mobile-totop mobile-logo-pos-left layout-wide-mode fusion-top-header menu-text-align-center mobile-menu-design-modern fusion-show-pagination-text fusion-header-layout-v1 avada-responsive avada-footer-fx-sticky-with-parallax-bg-image fusion-search-form-classic fusion-avatar-square">
+	<a class="skip-link screen-reader-text" href="#content">跳到内容</a>
+				<div id="wrapper" class="">
+		<div id="home" style="position:relative;top:-1px;"></div>
+		
+			<header class="fusion-header-wrapper">
+				<div class="fusion-header-v1 fusion-logo-left fusion-sticky-menu- fusion-sticky-logo- fusion-mobile-logo-  fusion-mobile-menu-design-modern">
+					<div class="fusion-header-sticky-height"></div>
+<div class="fusion-header">
+	<div class="fusion-row">
+					<div class="fusion-logo" data-margin-top="31px" data-margin-bottom="31px" data-margin-left="0px" data-margin-right="0px">
+			<a class="fusion-logo-link"  href="https://tangym123.github.io/wordpress/" >
+
+						<!-- standard logo -->
+			<img src="https://tangym123.github.io/wordpress/contents/ui/theme/assets/images/logo.png" srcset="https://tangym123.github.io/wordpress/contents/ui/theme/assets/images/logo.png 1x" width="" height="" alt="wordpress学习 Logo" retina_logo_url="" class="fusion-standard-logo" />
+
+			
+					</a>
+		</div>		<nav class="fusion-main-menu" aria-label="Main Menu"><ul role="menubar" id="menu-main" class="fusion-menu"><li  id="menu-item-395"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-395"  ><a  href="https://tangym123.github.io/wordpress/" class="fusion-bar-highlight" role="menuitem"><span class="menu-text">Home</span></a></li><li  id="menu-item-396"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-396"  ><a  href="https://tangym123.github.io/wordpress/index.php/faq/" class="fusion-bar-highlight" role="menuitem"><span class="menu-text">FAQ</span></a></li><li  id="menu-item-398"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-398"  ><a  href="https://tangym123.github.io/wordpress/index.php/all-posts/" class="fusion-bar-highlight" role="menuitem"><span class="menu-text">Blog</span></a></li><li  id="menu-item-397"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-397"  ><a  href="https://tangym123.github.io/wordpress/index.php/pressfactsheet/" class="fusion-bar-highlight" role="menuitem"><span class="menu-text">Factsheet</span></a></li></ul></nav>	<div class="fusion-mobile-menu-icons">
+							<a href="#" class="fusion-icon fusion-icon-bars" aria-label="切换移动菜单" aria-expanded="false"></a>
+		
+		
+		
+			</div>
+	
+<nav class="fusion-mobile-nav-holder fusion-mobile-menu-text-align-left"></nav>
+
+					</div>
+</div>
+				</div>
+				<div class="fusion-clearfix"></div>
+			</header>
+					
+		
+		<div id="sliders-container">
+					</div>
+				
+		
+					<div class="fusion-page-title-bar fusion-page-title-bar-breadcrumbs fusion-page-title-bar-left">
+	<div class="fusion-page-title-row">
+		<div class="fusion-page-title-wrapper">
+			<div class="fusion-page-title-captions">
+
+				
+				
+			</div>
+
+												<div class="fusion-page-title-secondary">
+						<div class="fusion-breadcrumbs"><span itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" href="https://tangym123.github.io/wordpress"><span itemprop="title">主页</span></a></span><span class="fusion-breadcrumb-sep">/</span><span class="breadcrumb-leaf">tangyiming</span></div>					</div>
+							
+		</div>
+	</div>
+</div>
+		
+		
+						<main id="main" role="main" class="clearfix " style="">
+			<div class="fusion-row" style="">
+<section id="content" class="full-width" style="width: 100%;">
+	<div class="fusion-author">
+	<div class="fusion-author-avatar">
+		<img alt='' src='http://2.gravatar.com/avatar/540d12168e7488f77aadd3687e9d54f6?s=82&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/540d12168e7488f77aadd3687e9d54f6?s=164&#038;d=mm&#038;r=g 2x' class='avatar avatar-82 photo' height='82' width='82' />	</div>
+	<div class="fusion-author-info">
+		<h3 class="fusion-author-title vcard">
+			关于 <span class="fn">tangyiming</span>								</h3>
+		该作者尚未填入任何详情<br />到目前为止tangyiming已创建10的博客条目。	</div>
+
+	<div style="clear:both;"></div>
+
+	<div class="fusion-author-social clearfix">
+		<div class="fusion-author-tagline">
+					</div>
+
+			</div>
+</div>
+
+	<div id="posts-container" class="fusion-blog-archive fusion-blog-layout-large-wrapper fusion-clearfix">
+	<div class="fusion-posts-container fusion-blog-layout-large fusion-blog-pagination  fusion-blog-rollover" data-pages="1">
+		
+		
+													<article id="post-193" class="fusion-post-large  post fusion-clearfix post-193 type-post status-publish format-standard has-post-thumbnail hentry category-newpipeblog">
+				
+				
+				
+									
+
+		<div class="fusion-flexslider flexslider fusion-flexslider-loading fusion-post-slideshow">
+		<ul class="slides">
+																		<li>
+
+<div  class="fusion-image-wrapper" aria-haspopup="true">
+	
+	
+		
+					<img width="700" height="555" src="https://tangym123.github.io/wordpress/contents/data/2018/09/blog_1_rev-1-e1536227857738.jpg" class="attachment-full size-full wp-post-image" alt="" />
+	
+
+		<div class="fusion-rollover">
+	<div class="fusion-rollover-content">
+
+														<a class="fusion-rollover-link" href="https://tangym123.github.io/wordpress/index.php/2018/09/06/blog-lmage-post/">Blog lmage Post</a>
+			
+														
+								
+													<div class="fusion-rollover-sep"></div>
+				
+																		<a class="fusion-rollover-gallery" href="https://tangym123.github.io/wordpress/contents/data/2018/09/blog_1_rev-1-e1536227857738.jpg" data-id="193" data-rel="iLightbox[gallery]" data-title="blog_1_rev-1" data-caption="">
+						画廊					</a>
+														
+				
+												<h4 class="fusion-rollover-title">
+					<a href="https://tangym123.github.io/wordpress/index.php/2018/09/06/blog-lmage-post/">
+						Blog lmage Post					</a>
+				</h4>
+			
+														<div class="fusion-rollover-categories"><a href="https://tangym123.github.io/wordpress/index.php/category/newpipeblog/" rel="tag">NewPipeBlog</a></div>					
+		
+				<a class="fusion-link-wrapper" href="https://tangym123.github.io/wordpress/index.php/2018/09/06/blog-lmage-post/" aria-label="Blog lmage Post"></a>
+	</div>
+</div>
+
+	
+</div>
+</li>
+																																																																														</ul>
+	</div>
+					
+				
+				
+				<div class="fusion-post-content post-content">
+					<h2 class="entry-title fusion-post-title"><a href="https://tangym123.github.io/wordpress/index.php/2018/09/06/blog-lmage-post/">Blog lmage Post</a></h2>
+										
+					<div class="fusion-post-content-container">
+						<p> Proin dictum lobortis justo at pretium. Nunc malesuada ante &#91;...&#93;</p>					</div>
+				</div>
+
+				
+																			<div class="fusion-meta-info">
+																						<div class="fusion-alignleft">By <span class="vcard"><span class="fn"><a href="https://tangym123.github.io/wordpress/index.php/author/tangyiming/" title="由tangyiming发布" rel="author">tangyiming</a></span></span><span class="fusion-inline-sep">|</span><span class="updated rich-snippet-hidden">2018-09-10T13:45:02+00:00</span><span>九月 6th, 2018</span><span class="fusion-inline-sep">|</span><a href="https://tangym123.github.io/wordpress/index.php/category/newpipeblog/" rel="category tag">NewPipeBlog</a><span class="fusion-inline-sep">|</span><span class="fusion-comments"><a href="https://tangym123.github.io/wordpress/index.php/2018/09/06/blog-lmage-post/#respond">0 条评论</a></span></div>							
+																														<div class="fusion-alignright">
+									<a href="https://tangym123.github.io/wordpress/index.php/2018/09/06/blog-lmage-post/" class="fusion-read-more">
+										阅读更多									</a>
+								</div>
+													</div>
+									
+				
+							</article>
+
+			
+											<article id="post-167" class="fusion-post-large  post fusion-clearfix post-167 type-post status-publish format-standard has-post-thumbnail hentry category-newpipeblog">
+				
+				
+				
+									
+
+		<div class="fusion-flexslider flexslider fusion-flexslider-loading fusion-post-slideshow">
+		<ul class="slides">
+																		<li>
+
+<div  class="fusion-image-wrapper" aria-haspopup="true">
+	
+	
+		
+					<img width="532" height="299" src="https://tangym123.github.io/wordpress/contents/data/2018/09/shot_player_volume_change-e1536220146523.png" class="attachment-full size-full wp-post-image" alt="" srcset="https://tangym123.github.io/wordpress/contents/data/2018/09/shot_player_volume_change-e1536220146523-200x112.png 200w, https://tangym123.github.io/wordpress/contents/data/2018/09/shot_player_volume_change-e1536220146523-300x169.png 300w, https://tangym123.github.io/wordpress/contents/data/2018/09/shot_player_volume_change-e1536220146523-400x225.png 400w, https://tangym123.github.io/wordpress/contents/data/2018/09/shot_player_volume_change-e1536220146523.png 532w" sizes="(max-width: 532px) 100vw, 532px" />
+	
+
+		<div class="fusion-rollover">
+	<div class="fusion-rollover-content">
+
+														<a class="fusion-rollover-link" href="https://tangym123.github.io/wordpress/index.php/2018/09/06/newpip-beta-now-available/">NewPip Beta now available</a>
+			
+														
+								
+													<div class="fusion-rollover-sep"></div>
+				
+																		<a class="fusion-rollover-gallery" href="https://tangym123.github.io/wordpress/contents/data/2018/09/shot_player_volume_change-e1536220146523.png" data-id="167" data-rel="iLightbox[gallery]" data-title="shot_player_volume_change" data-caption="">
+						画廊					</a>
+														
+				
+												<h4 class="fusion-rollover-title">
+					<a href="https://tangym123.github.io/wordpress/index.php/2018/09/06/newpip-beta-now-available/">
+						NewPip Beta now available					</a>
+				</h4>
+			
+														<div class="fusion-rollover-categories"><a href="https://tangym123.github.io/wordpress/index.php/category/newpipeblog/" rel="tag">NewPipeBlog</a></div>					
+		
+				<a class="fusion-link-wrapper" href="https://tangym123.github.io/wordpress/index.php/2018/09/06/newpip-beta-now-available/" aria-label="NewPip Beta now available"></a>
+	</div>
+</div>
+
+	
+</div>
+</li>
+																																																																														</ul>
+	</div>
+					
+				
+				
+				<div class="fusion-post-content post-content">
+					<h2 class="entry-title fusion-post-title"><a href="https://tangym123.github.io/wordpress/index.php/2018/09/06/newpip-beta-now-available/">NewPip Beta now available</a></h2>
+										
+					<div class="fusion-post-content-container">
+						<p> Feb 16, 2018 by TobiGr  By Schabi   With the &#91;...&#93;</p>					</div>
+				</div>
+
+				
+																			<div class="fusion-meta-info">
+																						<div class="fusion-alignleft">By <span class="vcard"><span class="fn"><a href="https://tangym123.github.io/wordpress/index.php/author/tangyiming/" title="由tangyiming发布" rel="author">tangyiming</a></span></span><span class="fusion-inline-sep">|</span><span class="updated rich-snippet-hidden">2018-09-07T09:01:01+00:00</span><span>九月 6th, 2018</span><span class="fusion-inline-sep">|</span><a href="https://tangym123.github.io/wordpress/index.php/category/newpipeblog/" rel="category tag">NewPipeBlog</a><span class="fusion-inline-sep">|</span><span class="fusion-comments"><a href="https://tangym123.github.io/wordpress/index.php/2018/09/06/newpip-beta-now-available/#respond">0 条评论</a></span></div>							
+																														<div class="fusion-alignright">
+									<a href="https://tangym123.github.io/wordpress/index.php/2018/09/06/newpip-beta-now-available/" class="fusion-read-more">
+										阅读更多									</a>
+								</div>
+													</div>
+									
+				
+							</article>
+
+			
+											<article id="post-161" class="fusion-post-large  post fusion-clearfix post-161 type-post status-publish format-standard has-post-thumbnail hentry category-newpipeblog">
+				
+				
+				
+									
+
+		<div class="fusion-flexslider flexslider fusion-flexslider-loading fusion-post-slideshow">
+		<ul class="slides">
+																		<li>
+
+<div  class="fusion-image-wrapper" aria-haspopup="true">
+	
+	
+		
+					<img width="245" height="245" src="https://tangym123.github.io/wordpress/contents/data/2018/09/34c3_logo.png" class="attachment-full size-full wp-post-image" alt="" srcset="https://tangym123.github.io/wordpress/contents/data/2018/09/34c3_logo-66x66.png 66w, https://tangym123.github.io/wordpress/contents/data/2018/09/34c3_logo-150x150.png 150w, https://tangym123.github.io/wordpress/contents/data/2018/09/34c3_logo-200x200.png 200w, https://tangym123.github.io/wordpress/contents/data/2018/09/34c3_logo.png 245w" sizes="(max-width: 245px) 100vw, 245px" />
+	
+
+		<div class="fusion-rollover">
+	<div class="fusion-rollover-content">
+
+														<a class="fusion-rollover-link" href="https://tangym123.github.io/wordpress/index.php/2018/09/06/newpipe-talk-during-fsfe-assembly-on-34c3/">NewPipe talk during FSFE Assembly on 34C3</a>
+			
+														
+								
+													<div class="fusion-rollover-sep"></div>
+				
+																		<a class="fusion-rollover-gallery" href="https://tangym123.github.io/wordpress/contents/data/2018/09/34c3_logo.png" data-id="161" data-rel="iLightbox[gallery]" data-title="34c3_logo" data-caption="">
+						画廊					</a>
+														
+				
+												<h4 class="fusion-rollover-title">
+					<a href="https://tangym123.github.io/wordpress/index.php/2018/09/06/newpipe-talk-during-fsfe-assembly-on-34c3/">
+						NewPipe talk during FSFE Assembly on 34C3					</a>
+				</h4>
+			
+														<div class="fusion-rollover-categories"><a href="https://tangym123.github.io/wordpress/index.php/category/newpipeblog/" rel="tag">NewPipeBlog</a></div>					
+		
+				<a class="fusion-link-wrapper" href="https://tangym123.github.io/wordpress/index.php/2018/09/06/newpipe-talk-during-fsfe-assembly-on-34c3/" aria-label="NewPipe talk during FSFE Assembly on 34C3"></a>
+	</div>
+</div>
+
+	
+</div>
+</li>
+																																																																														</ul>
+	</div>
+					
+				
+				
+				<div class="fusion-post-content post-content">
+					<h2 class="entry-title fusion-post-title"><a href="https://tangym123.github.io/wordpress/index.php/2018/09/06/newpipe-talk-during-fsfe-assembly-on-34c3/">NewPipe talk during FSFE Assembly on 34C3</a></h2>
+										
+					<div class="fusion-post-content-container">
+						<p> Dec 17, 2017 by TheAssassin  By Gregor Sedlag   In &#91;...&#93;</p>					</div>
+				</div>
+
+				
+																			<div class="fusion-meta-info">
+																						<div class="fusion-alignleft">By <span class="vcard"><span class="fn"><a href="https://tangym123.github.io/wordpress/index.php/author/tangyiming/" title="由tangyiming发布" rel="author">tangyiming</a></span></span><span class="fusion-inline-sep">|</span><span class="updated rich-snippet-hidden">2018-09-07T09:01:21+00:00</span><span>九月 6th, 2018</span><span class="fusion-inline-sep">|</span><a href="https://tangym123.github.io/wordpress/index.php/category/newpipeblog/" rel="category tag">NewPipeBlog</a><span class="fusion-inline-sep">|</span><span class="fusion-comments"><a href="https://tangym123.github.io/wordpress/index.php/2018/09/06/newpipe-talk-during-fsfe-assembly-on-34c3/#respond">0 条评论</a></span></div>							
+																														<div class="fusion-alignright">
+									<a href="https://tangym123.github.io/wordpress/index.php/2018/09/06/newpipe-talk-during-fsfe-assembly-on-34c3/" class="fusion-read-more">
+										阅读更多									</a>
+								</div>
+													</div>
+									
+				
+							</article>
+
+			
+											<article id="post-151" class="fusion-post-large  post fusion-clearfix post-151 type-post status-publish format-standard has-post-thumbnail hentry category-newpipeblog">
+				
+				
+				
+									
+
+		<div class="fusion-flexslider flexslider fusion-flexslider-loading fusion-post-slideshow">
+		<ul class="slides">
+																		<li>
+
+<div  class="fusion-image-wrapper" aria-haspopup="true">
+	
+	
+		
+					<img width="149" height="112" src="https://tangym123.github.io/wordpress/contents/data/2018/09/34c3-press-e1536224192272.png" class="attachment-full size-full wp-post-image" alt="" />
+	
+
+		<div class="fusion-rollover">
+	<div class="fusion-rollover-content">
+
+														<a class="fusion-rollover-link" href="https://tangym123.github.io/wordpress/index.php/2018/09/06/newpipe-talk-video-from-34c3-online/">NewPipe Talk video from 34C3 online</a>
+			
+														
+								
+													<div class="fusion-rollover-sep"></div>
+				
+																		<a class="fusion-rollover-gallery" href="https://tangym123.github.io/wordpress/contents/data/2018/09/34c3-press-e1536224192272.png" data-id="151" data-rel="iLightbox[gallery]" data-title="34c3-press" data-caption="">
+						画廊					</a>
+														
+				
+												<h4 class="fusion-rollover-title">
+					<a href="https://tangym123.github.io/wordpress/index.php/2018/09/06/newpipe-talk-video-from-34c3-online/">
+						NewPipe Talk video from 34C3 online					</a>
+				</h4>
+			
+														<div class="fusion-rollover-categories"><a href="https://tangym123.github.io/wordpress/index.php/category/newpipeblog/" rel="tag">NewPipeBlog</a></div>					
+		
+				<a class="fusion-link-wrapper" href="https://tangym123.github.io/wordpress/index.php/2018/09/06/newpipe-talk-video-from-34c3-online/" aria-label="NewPipe Talk video from 34C3 online"></a>
+	</div>
+</div>
+
+	
+</div>
+</li>
+																																																																														</ul>
+	</div>
+					
+				
+				
+				<div class="fusion-post-content post-content">
+					<h2 class="entry-title fusion-post-title"><a href="https://tangym123.github.io/wordpress/index.php/2018/09/06/newpipe-talk-video-from-34c3-online/">NewPipe Talk video from 34C3 online</a></h2>
+										
+					<div class="fusion-post-content-container">
+						<p>Feb 11, 2018 by Schabi  By Schabi   As you may &#91;...&#93;</p>					</div>
+				</div>
+
+				
+																			<div class="fusion-meta-info">
+																						<div class="fusion-alignleft">By <span class="vcard"><span class="fn"><a href="https://tangym123.github.io/wordpress/index.php/author/tangyiming/" title="由tangyiming发布" rel="author">tangyiming</a></span></span><span class="fusion-inline-sep">|</span><span class="updated rich-snippet-hidden">2018-09-06T18:28:19+00:00</span><span>九月 6th, 2018</span><span class="fusion-inline-sep">|</span><a href="https://tangym123.github.io/wordpress/index.php/category/newpipeblog/" rel="category tag">NewPipeBlog</a><span class="fusion-inline-sep">|</span><span class="fusion-comments"><a href="https://tangym123.github.io/wordpress/index.php/2018/09/06/newpipe-talk-video-from-34c3-online/#respond">0 条评论</a></span></div>							
+																														<div class="fusion-alignright">
+									<a href="https://tangym123.github.io/wordpress/index.php/2018/09/06/newpipe-talk-video-from-34c3-online/" class="fusion-read-more">
+										阅读更多									</a>
+								</div>
+													</div>
+									
+				
+							</article>
+
+			
+											<article id="post-145" class="fusion-post-large  post fusion-clearfix post-145 type-post status-publish format-standard has-post-thumbnail hentry category-newpipeblog">
+				
+				
+				
+									
+
+		<div class="fusion-flexslider flexslider fusion-flexslider-loading fusion-post-slideshow">
+		<ul class="slides">
+																		<li>
+
+<div  class="fusion-image-wrapper" aria-haspopup="true">
+	
+	
+		
+					<img width="337" height="234" src="https://tangym123.github.io/wordpress/contents/data/2018/09/download-features.6a2e9a82-e1536223556564.jpg" class="attachment-full size-full wp-post-image" alt="" srcset="https://tangym123.github.io/wordpress/contents/data/2018/09/download-features.6a2e9a82-e1536223556564-200x139.jpg 200w, https://tangym123.github.io/wordpress/contents/data/2018/09/download-features.6a2e9a82-e1536223556564-300x208.jpg 300w, https://tangym123.github.io/wordpress/contents/data/2018/09/download-features.6a2e9a82-e1536223556564.jpg 337w" sizes="(max-width: 337px) 100vw, 337px" />
+	
+
+		<div class="fusion-rollover">
+	<div class="fusion-rollover-content">
+
+														<a class="fusion-rollover-link" href="https://tangym123.github.io/wordpress/index.php/2018/09/06/blog/">blog</a>
+			
+														
+								
+													<div class="fusion-rollover-sep"></div>
+				
+																		<a class="fusion-rollover-gallery" href="https://tangym123.github.io/wordpress/contents/data/2018/09/download-features.6a2e9a82-e1536223556564.jpg" data-id="145" data-rel="iLightbox[gallery]" data-title="download-features.6a2e9a82" data-caption="">
+						画廊					</a>
+														
+				
+												<h4 class="fusion-rollover-title">
+					<a href="https://tangym123.github.io/wordpress/index.php/2018/09/06/blog/">
+						blog					</a>
+				</h4>
+			
+														<div class="fusion-rollover-categories"><a href="https://tangym123.github.io/wordpress/index.php/category/newpipeblog/" rel="tag">NewPipeBlog</a></div>					
+		
+				<a class="fusion-link-wrapper" href="https://tangym123.github.io/wordpress/index.php/2018/09/06/blog/" aria-label="blog"></a>
+	</div>
+</div>
+
+	
+</div>
+</li>
+																																																																														</ul>
+	</div>
+					
+				
+				
+				<div class="fusion-post-content post-content">
+					<h2 class="entry-title fusion-post-title"><a href="https://tangym123.github.io/wordpress/index.php/2018/09/06/blog/">blog</a></h2>
+										
+					<div class="fusion-post-content-container">
+						<p> Blog Shortcode This is a very versatile shortcode, allowing &#91;...&#93;</p>					</div>
+				</div>
+
+				
+																			<div class="fusion-meta-info">
+																						<div class="fusion-alignleft">By <span class="vcard"><span class="fn"><a href="https://tangym123.github.io/wordpress/index.php/author/tangyiming/" title="由tangyiming发布" rel="author">tangyiming</a></span></span><span class="fusion-inline-sep">|</span><span class="updated rich-snippet-hidden">2018-09-06T18:30:17+00:00</span><span>九月 6th, 2018</span><span class="fusion-inline-sep">|</span><a href="https://tangym123.github.io/wordpress/index.php/category/newpipeblog/" rel="category tag">NewPipeBlog</a><span class="fusion-inline-sep">|</span><span class="fusion-comments"><a href="https://tangym123.github.io/wordpress/index.php/2018/09/06/blog/#respond">0 条评论</a></span></div>							
+																														<div class="fusion-alignright">
+									<a href="https://tangym123.github.io/wordpress/index.php/2018/09/06/blog/" class="fusion-read-more">
+										阅读更多									</a>
+								</div>
+													</div>
+									
+				
+							</article>
+
+			
+											<article id="post-142" class="fusion-post-large  post fusion-clearfix post-142 type-post status-publish format-standard has-post-thumbnail hentry category-newpipeblog">
+				
+				
+				
+									
+
+		<div class="fusion-flexslider flexslider fusion-flexslider-loading fusion-post-slideshow">
+		<ul class="slides">
+																		<li>
+
+<div  class="fusion-image-wrapper" aria-haspopup="true">
+	
+	
+		
+					<img width="64" height="64" src="https://tangym123.github.io/wordpress/contents/data/2018/09/GitHub-Mark-64px.png" class="attachment-full size-full wp-post-image" alt="" />
+	
+
+		<div class="fusion-rollover">
+	<div class="fusion-rollover-content">
+
+														<a class="fusion-rollover-link" href="https://tangym123.github.io/wordpress/index.php/2018/09/06/team-newpipe-needs-your-feedback/">Team NewPipe needs your feedback</a>
+			
+														
+								
+													<div class="fusion-rollover-sep"></div>
+				
+																		<a class="fusion-rollover-gallery" href="https://tangym123.github.io/wordpress/contents/data/2018/09/GitHub-Mark-64px.png" data-id="142" data-rel="iLightbox[gallery]" data-title="GitHub-Mark-64px" data-caption="">
+						画廊					</a>
+														
+				
+												<h4 class="fusion-rollover-title">
+					<a href="https://tangym123.github.io/wordpress/index.php/2018/09/06/team-newpipe-needs-your-feedback/">
+						Team NewPipe needs your feedback					</a>
+				</h4>
+			
+														<div class="fusion-rollover-categories"><a href="https://tangym123.github.io/wordpress/index.php/category/newpipeblog/" rel="tag">NewPipeBlog</a></div>					
+		
+				<a class="fusion-link-wrapper" href="https://tangym123.github.io/wordpress/index.php/2018/09/06/team-newpipe-needs-your-feedback/" aria-label="Team NewPipe needs your feedback"></a>
+	</div>
+</div>
+
+	
+</div>
+</li>
+																																																																														</ul>
+	</div>
+					
+				
+				
+				<div class="fusion-post-content post-content">
+					<h2 class="entry-title fusion-post-title"><a href="https://tangym123.github.io/wordpress/index.php/2018/09/06/team-newpipe-needs-your-feedback/">Team NewPipe needs your feedback</a></h2>
+										
+					<div class="fusion-post-content-container">
+						<p> Team NewPipe needs your help! Since we do not &#91;...&#93;</p>					</div>
+				</div>
+
+				
+																			<div class="fusion-meta-info">
+																						<div class="fusion-alignleft">By <span class="vcard"><span class="fn"><a href="https://tangym123.github.io/wordpress/index.php/author/tangyiming/" title="由tangyiming发布" rel="author">tangyiming</a></span></span><span class="fusion-inline-sep">|</span><span class="updated rich-snippet-hidden">2018-09-06T18:32:17+00:00</span><span>九月 6th, 2018</span><span class="fusion-inline-sep">|</span><a href="https://tangym123.github.io/wordpress/index.php/category/newpipeblog/" rel="category tag">NewPipeBlog</a><span class="fusion-inline-sep">|</span><span class="fusion-comments"><a href="https://tangym123.github.io/wordpress/index.php/2018/09/06/team-newpipe-needs-your-feedback/#respond">0 条评论</a></span></div>							
+																														<div class="fusion-alignright">
+									<a href="https://tangym123.github.io/wordpress/index.php/2018/09/06/team-newpipe-needs-your-feedback/" class="fusion-read-more">
+										阅读更多									</a>
+								</div>
+													</div>
+									
+				
+							</article>
+
+			
+											<article id="post-139" class="fusion-post-large  post fusion-clearfix post-139 type-post status-publish format-standard has-post-thumbnail hentry category-newpipeblog">
+				
+				
+				
+									
+
+		<div class="fusion-flexslider flexslider fusion-flexslider-loading fusion-post-slideshow">
+		<ul class="slides">
+																		<li>
+
+<div  class="fusion-image-wrapper" aria-haspopup="true">
+	
+	
+		
+					<img width="295" height="524" src="https://tangym123.github.io/wordpress/contents/data/2018/09/shot_popup_close-e1536220076800.png" class="attachment-full size-full wp-post-image" alt="" srcset="https://tangym123.github.io/wordpress/contents/data/2018/09/shot_popup_close-e1536220076800-169x300.png 169w, https://tangym123.github.io/wordpress/contents/data/2018/09/shot_popup_close-e1536220076800-200x355.png 200w, https://tangym123.github.io/wordpress/contents/data/2018/09/shot_popup_close-e1536220076800.png 295w" sizes="(max-width: 295px) 100vw, 295px" />
+	
+
+		<div class="fusion-rollover">
+	<div class="fusion-rollover-content">
+
+														<a class="fusion-rollover-link" href="https://tangym123.github.io/wordpress/index.php/2018/09/06/atom-and-rss-feeds-available/">Atom and RSS feeds available</a>
+			
+														
+								
+													<div class="fusion-rollover-sep"></div>
+				
+																		<a class="fusion-rollover-gallery" href="https://tangym123.github.io/wordpress/contents/data/2018/09/shot_popup_close-e1536220076800.png" data-id="139" data-rel="iLightbox[gallery]" data-title="shot_popup_close" data-caption="">
+						画廊					</a>
+														
+				
+												<h4 class="fusion-rollover-title">
+					<a href="https://tangym123.github.io/wordpress/index.php/2018/09/06/atom-and-rss-feeds-available/">
+						Atom and RSS feeds available					</a>
+				</h4>
+			
+														<div class="fusion-rollover-categories"><a href="https://tangym123.github.io/wordpress/index.php/category/newpipeblog/" rel="tag">NewPipeBlog</a></div>					
+		
+				<a class="fusion-link-wrapper" href="https://tangym123.github.io/wordpress/index.php/2018/09/06/atom-and-rss-feeds-available/" aria-label="Atom and RSS feeds available"></a>
+	</div>
+</div>
+
+	
+</div>
+</li>
+																																																																														</ul>
+	</div>
+					
+				
+				
+				<div class="fusion-post-content post-content">
+					<h2 class="entry-title fusion-post-title"><a href="https://tangym123.github.io/wordpress/index.php/2018/09/06/atom-and-rss-feeds-available/">Atom and RSS feeds available</a></h2>
+										
+					<div class="fusion-post-content-container">
+						<p> Thanks to the efforts of @TobiGr, we are proud to &#91;...&#93;</p>					</div>
+				</div>
+
+				
+																			<div class="fusion-meta-info">
+																						<div class="fusion-alignleft">By <span class="vcard"><span class="fn"><a href="https://tangym123.github.io/wordpress/index.php/author/tangyiming/" title="由tangyiming发布" rel="author">tangyiming</a></span></span><span class="fusion-inline-sep">|</span><span class="updated rich-snippet-hidden">2018-09-07T09:02:24+00:00</span><span>九月 6th, 2018</span><span class="fusion-inline-sep">|</span><a href="https://tangym123.github.io/wordpress/index.php/category/newpipeblog/" rel="category tag">NewPipeBlog</a><span class="fusion-inline-sep">|</span><span class="fusion-comments"><a href="https://tangym123.github.io/wordpress/index.php/2018/09/06/atom-and-rss-feeds-available/#respond">0 条评论</a></span></div>							
+																														<div class="fusion-alignright">
+									<a href="https://tangym123.github.io/wordpress/index.php/2018/09/06/atom-and-rss-feeds-available/" class="fusion-read-more">
+										阅读更多									</a>
+								</div>
+													</div>
+									
+				
+							</article>
+
+			
+											<article id="post-134" class="fusion-post-large  post fusion-clearfix post-134 type-post status-publish format-standard has-post-thumbnail hentry category-newpipeblog">
+				
+				
+				
+									
+
+		<div class="fusion-flexslider flexslider fusion-flexslider-loading fusion-post-slideshow">
+		<ul class="slides">
+																		<li>
+
+<div  class="fusion-image-wrapper" aria-haspopup="true">
+	
+	
+		
+					<img width="425" height="425" src="https://tangym123.github.io/wordpress/contents/data/2018/09/logo-2.png" class="attachment-full size-full wp-post-image" alt="" srcset="https://tangym123.github.io/wordpress/contents/data/2018/09/logo-2-66x66.png 66w, https://tangym123.github.io/wordpress/contents/data/2018/09/logo-2-150x150.png 150w, https://tangym123.github.io/wordpress/contents/data/2018/09/logo-2-200x200.png 200w, https://tangym123.github.io/wordpress/contents/data/2018/09/logo-2-300x300.png 300w, https://tangym123.github.io/wordpress/contents/data/2018/09/logo-2-400x400.png 400w, https://tangym123.github.io/wordpress/contents/data/2018/09/logo-2.png 425w" sizes="(max-width: 425px) 100vw, 425px" />
+	
+
+		<div class="fusion-rollover">
+	<div class="fusion-rollover-content">
+
+														<a class="fusion-rollover-link" href="https://tangym123.github.io/wordpress/index.php/2018/09/06/newpipe-in-google-play-store/">NewPipe in Google Play Store</a>
+			
+														
+								
+													<div class="fusion-rollover-sep"></div>
+				
+																		<a class="fusion-rollover-gallery" href="https://tangym123.github.io/wordpress/contents/data/2018/09/logo-2.png" data-id="134" data-rel="iLightbox[gallery]" data-title="logo" data-caption="">
+						画廊					</a>
+														
+				
+												<h4 class="fusion-rollover-title">
+					<a href="https://tangym123.github.io/wordpress/index.php/2018/09/06/newpipe-in-google-play-store/">
+						NewPipe in Google Play Store					</a>
+				</h4>
+			
+														<div class="fusion-rollover-categories"><a href="https://tangym123.github.io/wordpress/index.php/category/newpipeblog/" rel="tag">NewPipeBlog</a></div>					
+		
+				<a class="fusion-link-wrapper" href="https://tangym123.github.io/wordpress/index.php/2018/09/06/newpipe-in-google-play-store/" aria-label="NewPipe in Google Play Store"></a>
+	</div>
+</div>
+
+	
+</div>
+</li>
+																																																																														</ul>
+	</div>
+					
+				
+				
+				<div class="fusion-post-content post-content">
+					<h2 class="entry-title fusion-post-title"><a href="https://tangym123.github.io/wordpress/index.php/2018/09/06/newpipe-in-google-play-store/">NewPipe in Google Play Store</a></h2>
+										
+					<div class="fusion-post-content-container">
+						<p> Please beware that the following text was part of &#91;...&#93;</p>					</div>
+				</div>
+
+				
+																			<div class="fusion-meta-info">
+																						<div class="fusion-alignleft">By <span class="vcard"><span class="fn"><a href="https://tangym123.github.io/wordpress/index.php/author/tangyiming/" title="由tangyiming发布" rel="author">tangyiming</a></span></span><span class="fusion-inline-sep">|</span><span class="updated rich-snippet-hidden">2018-09-06T18:34:40+00:00</span><span>九月 6th, 2018</span><span class="fusion-inline-sep">|</span><a href="https://tangym123.github.io/wordpress/index.php/category/newpipeblog/" rel="category tag">NewPipeBlog</a><span class="fusion-inline-sep">|</span><span class="fusion-comments"><a href="https://tangym123.github.io/wordpress/index.php/2018/09/06/newpipe-in-google-play-store/#respond">0 条评论</a></span></div>							
+																														<div class="fusion-alignright">
+									<a href="https://tangym123.github.io/wordpress/index.php/2018/09/06/newpipe-in-google-play-store/" class="fusion-read-more">
+										阅读更多									</a>
+								</div>
+													</div>
+									
+				
+							</article>
+
+			
+											<article id="post-124" class="fusion-post-large  post fusion-clearfix post-124 type-post status-publish format-standard has-post-thumbnail hentry category-newpipeblog">
+				
+				
+				
+									
+<style type="text/css">#post-124 .fusion-post-slideshow { max-width:200px !important;}#post-124 .fusion-post-slideshow, #post-124 .fusion-post-slideshow .fusion-image-wrapper img { max-height:200px !important;}@media only screen and (max-width: 479px){#post-124 .fusion-post-slideshow, #post-124 .fusion-post-slideshow .fusion-image-wrapper img{width:auto !important; height:auto !important; } }</style>
+		<div class="fusion-flexslider flexslider fusion-flexslider-loading fusion-post-slideshow">
+		<ul class="slides">
+																		<li>
+
+<div  class="fusion-image-wrapper" aria-haspopup="true">
+	
+	
+		
+					<img width="149" height="110" src="https://tangym123.github.io/wordpress/contents/data/2018/09/faq-3408300_1280-e1536221592168.jpg" class="attachment-full size-full wp-post-image" alt="" />
+	
+
+		<div class="fusion-rollover">
+	<div class="fusion-rollover-content">
+
+														<a class="fusion-rollover-link" href="https://tangym123.github.io/wordpress/index.php/2018/09/06/faq-now-available/">FAQ now available</a>
+			
+														
+								
+													<div class="fusion-rollover-sep"></div>
+				
+																		<a class="fusion-rollover-gallery" href="https://tangym123.github.io/wordpress/contents/data/2018/09/faq-3408300_1280-e1536221592168.jpg" data-id="124" data-rel="iLightbox[gallery]" data-title="faq-3408300_1280" data-caption="">
+						画廊					</a>
+														
+				
+												<h4 class="fusion-rollover-title">
+					<a href="https://tangym123.github.io/wordpress/index.php/2018/09/06/faq-now-available/">
+						FAQ now available					</a>
+				</h4>
+			
+														<div class="fusion-rollover-categories"><a href="https://tangym123.github.io/wordpress/index.php/category/newpipeblog/" rel="tag">NewPipeBlog</a></div>					
+		
+				<a class="fusion-link-wrapper" href="https://tangym123.github.io/wordpress/index.php/2018/09/06/faq-now-available/" aria-label="FAQ now available"></a>
+	</div>
+</div>
+
+	
+</div>
+</li>
+																																																																														</ul>
+	</div>
+					
+				
+				
+				<div class="fusion-post-content post-content">
+					<h2 class="entry-title fusion-post-title"><a href="https://tangym123.github.io/wordpress/index.php/2018/09/06/faq-now-available/">FAQ now available</a></h2>
+										
+					<div class="fusion-post-content-container">
+						<p> If you read the title, you probably guessed it: &#91;...&#93;</p>					</div>
+				</div>
+
+				
+																			<div class="fusion-meta-info">
+																						<div class="fusion-alignleft">By <span class="vcard"><span class="fn"><a href="https://tangym123.github.io/wordpress/index.php/author/tangyiming/" title="由tangyiming发布" rel="author">tangyiming</a></span></span><span class="fusion-inline-sep">|</span><span class="updated rich-snippet-hidden">2018-09-07T09:02:56+00:00</span><span>九月 6th, 2018</span><span class="fusion-inline-sep">|</span><a href="https://tangym123.github.io/wordpress/index.php/category/newpipeblog/" rel="category tag">NewPipeBlog</a><span class="fusion-inline-sep">|</span><span class="fusion-comments"><a href="https://tangym123.github.io/wordpress/index.php/2018/09/06/faq-now-available/#respond">0 条评论</a></span></div>							
+																														<div class="fusion-alignright">
+									<a href="https://tangym123.github.io/wordpress/index.php/2018/09/06/faq-now-available/" class="fusion-read-more">
+										阅读更多									</a>
+								</div>
+													</div>
+									
+				
+							</article>
+
+			
+											<article id="post-98" class="fusion-post-large  post fusion-clearfix post-98 type-post status-publish format-standard has-post-thumbnail hentry category-newpipeblog">
+				
+				
+				
+									
+<style type="text/css">#post-98 .fusion-post-slideshow { max-width:200px !important;}#post-98 .fusion-post-slideshow, #post-98 .fusion-post-slideshow .fusion-image-wrapper img { max-height:200px !important;}@media only screen and (max-width: 479px){#post-98 .fusion-post-slideshow, #post-98 .fusion-post-slideshow .fusion-image-wrapper img{width:auto !important; height:auto !important; } }</style>
+		<div class="fusion-flexslider flexslider fusion-flexslider-loading fusion-post-slideshow">
+		<ul class="slides">
+																		<li>
+
+<div  class="fusion-image-wrapper" aria-haspopup="true">
+	
+	
+		
+					<img width="295" height="524" src="https://tangym123.github.io/wordpress/contents/data/2018/09/shot_settings_main_tabs-e1536220020134.png" class="attachment-full size-full wp-post-image" alt="" srcset="https://tangym123.github.io/wordpress/contents/data/2018/09/shot_settings_main_tabs-e1536220020134-169x300.png 169w, https://tangym123.github.io/wordpress/contents/data/2018/09/shot_settings_main_tabs-e1536220020134-200x355.png 200w, https://tangym123.github.io/wordpress/contents/data/2018/09/shot_settings_main_tabs-e1536220020134.png 295w" sizes="(max-width: 295px) 100vw, 295px" />
+	
+
+		<div class="fusion-rollover">
+	<div class="fusion-rollover-content">
+
+														<a class="fusion-rollover-link" href="https://tangym123.github.io/wordpress/index.php/2018/09/06/newpipe-0-14-0-released-featuring-a-more-customizable-main-page/">NewPipe 0.14.0 released, featuring a more customizable main page</a>
+			
+														
+								
+													<div class="fusion-rollover-sep"></div>
+				
+																		<a class="fusion-rollover-gallery" href="https://tangym123.github.io/wordpress/contents/data/2018/09/shot_settings_main_tabs-e1536220020134.png" data-id="98" data-rel="iLightbox[gallery]" data-title="shot_settings_main_tabs" data-caption="">
+						画廊					</a>
+														
+				
+												<h4 class="fusion-rollover-title">
+					<a href="https://tangym123.github.io/wordpress/index.php/2018/09/06/newpipe-0-14-0-released-featuring-a-more-customizable-main-page/">
+						NewPipe 0.14.0 released, featuring a more customizable main page					</a>
+				</h4>
+			
+														<div class="fusion-rollover-categories"><a href="https://tangym123.github.io/wordpress/index.php/category/newpipeblog/" rel="tag">NewPipeBlog</a></div>					
+		
+				<a class="fusion-link-wrapper" href="https://tangym123.github.io/wordpress/index.php/2018/09/06/newpipe-0-14-0-released-featuring-a-more-customizable-main-page/" aria-label="NewPipe 0.14.0 released, featuring a more customizable main page"></a>
+	</div>
+</div>
+
+	
+</div>
+</li>
+																																																																														</ul>
+	</div>
+					
+				
+				
+				<div class="fusion-post-content post-content">
+					<h2 class="entry-title fusion-post-title"><a href="https://tangym123.github.io/wordpress/index.php/2018/09/06/newpipe-0-14-0-released-featuring-a-more-customizable-main-page/">NewPipe 0.14.0 released, featuring a more customizable main page</a></h2>
+										
+					<div class="fusion-post-content-container">
+						<p> It has been a while since the last post &#91;...&#93;</p>					</div>
+				</div>
+
+				
+																			<div class="fusion-meta-info">
+																						<div class="fusion-alignleft">By <span class="vcard"><span class="fn"><a href="https://tangym123.github.io/wordpress/index.php/author/tangyiming/" title="由tangyiming发布" rel="author">tangyiming</a></span></span><span class="fusion-inline-sep">|</span><span class="updated rich-snippet-hidden">2018-09-07T09:00:01+00:00</span><span>九月 6th, 2018</span><span class="fusion-inline-sep">|</span><a href="https://tangym123.github.io/wordpress/index.php/category/newpipeblog/" rel="category tag">NewPipeBlog</a><span class="fusion-inline-sep">|</span><span class="fusion-comments"><a href="https://tangym123.github.io/wordpress/index.php/2018/09/06/newpipe-0-14-0-released-featuring-a-more-customizable-main-page/#respond">0 条评论</a></span></div>							
+																														<div class="fusion-alignright">
+									<a href="https://tangym123.github.io/wordpress/index.php/2018/09/06/newpipe-0-14-0-released-featuring-a-more-customizable-main-page/" class="fusion-read-more">
+										阅读更多									</a>
+								</div>
+													</div>
+									
+				
+							</article>
+
+			
+		
+		
+	</div>
+
+			</div>
+</section>
+					
+				</div>  <!-- fusion-row -->
+			</main>  <!-- #main -->
+			
+			
+			
+										
+				<div class="fusion-footer">
+					
+	
+	<footer id="footer" class="fusion-footer-copyright-area">
+		<div class="fusion-row">
+			<div class="fusion-copyright-content">
+
+				<div class="fusion-copyright-notice">
+		<div>
+		<div class="container">
+            <div class="footer-links">
+                <span id="copyright-span" style="padding:0 12px;">Copyright © Team NewPipe.</span>
+                <span   style="padding:0 12px;"><a href="/press/contact/">Contact</a></span>
+                <span   style="padding:0 12px;"><a href="/legal/license/">Licensing</a></span>
+                <span   style="padding:0 12px;"><a href="/legal/privacy/">Privacy Policy</a></span>
+            </div>
+        </div>	</div>
+</div>
+<div class="fusion-social-links-footer">
+	</div>
+
+			</div> <!-- fusion-fusion-copyright-content -->
+		</div> <!-- fusion-row -->
+	</footer> <!-- #footer -->
+				</div> <!-- fusion-footer -->
+			
+								</div> <!-- wrapper -->
+
+								<a class="fusion-one-page-text-link fusion-page-load-link"></a>
+
+						<script type="text/javascript">
+				jQuery( document ).ready( function() {
+					var ajaxurl = 'https://tangym123.github.io/wordpress/wp-admin/admin-ajax.php';
+					if ( 0 < jQuery( '.fusion-login-nonce' ).length ) {
+						jQuery.get( ajaxurl, { 'action': 'fusion_login_nonce' }, function( response ) {
+							jQuery( '.fusion-login-nonce' ).html( response );
+						});
+					}
+				});
+				</script>
+				<link rel='stylesheet' id='so-css-Avada-css'  href='https://tangym123.github.io/wordpress/contents/data/so-css/so-css-Avada.css' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"http:\/\/https://tangym123.github.io\/wordpress\/index.php\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"\u8bf7\u9a8c\u8bc1\u60a8\u4e0d\u662f\u4e00\u4e2a\u673a\u5668\u4eba\u3002"}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://tangym123.github.io/wordpress/contents/lib/contact-form-7/includes/js/scripts.js'></script>
+<!--[if IE 9]>
+<script type='text/javascript' src='https://tangym123.github.io/wordpress/contents/ui/theme/includes/lib/assets/min/js/general/fusion-ie9.js'></script>
+<![endif]-->
+<script type='text/javascript' src='https://tangym123.github.io/wordpress/contents/data/fusion-scripts/5e71d8d255cddf6063e5960085b3492d.min.js'></script>
+	</body>
+</html>
