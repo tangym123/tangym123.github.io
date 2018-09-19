@@ -6,11 +6,11 @@
 	
 	>
 <channel>
-	<title>“wordpress学习”的评论</title>
-	<atom:link href="https://tangym123.github.io/wordpress/index.php/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>https://tangym123.github.io/wordpress</link>
+	<title>“Avada Seo”的评论</title>
+	<atom:link href="http://https://tangym123.github.io/wordpress/index.php/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>http://https://tangym123.github.io/wordpress</link>
 	<description>又一个WordPress站点</description>
-	<lastBuildDate>Mon, 17 Sep 2018 03:53:38 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 19 Sep 2018 04:02:01 +0000</lastBuildDate>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=4.9.8</generator>
