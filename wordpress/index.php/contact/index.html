@@ -4,6 +4,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="keywords" content="高德地图,DIY地图,高德地图生成器">
+	<meta name="description" content="高德地图，DIY地图，自己制作地图，生成自己的高德地图">
 	<title>联系我们 &#8211; Avada Seo</title>
 <meta name='robots' content='noindex,follow' />
 <link rel='dns-prefetch' href='//s.w.org' />
@@ -188,73 +190,76 @@ var LS_Meta = {"v":"6.7.6"};
 				<div class="fusion-fullwidth fullwidth-box hundred-percent-fullwidth non-hundred-percent-height-scrolling"  style='background-color: rgba(255,255,255,0);background-position: center center;background-repeat: no-repeat;margin-bottom: -20px;'><div class="fusion-builder-row fusion-row"><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first fusion-column-last 1_1"  style='margin-top:0px;margin-bottom:20px;'>
 					<div class="fusion-column-wrapper" style="padding: 0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
 						<div class="fusion-sep-clear"></div><div class="fusion-separator fusion-full-width-sep sep-none" style="margin-left: auto;margin-right: auto;margin-top:20px;margin-bottom:20px;"></div><!DOCTYPE html>
-
-    <!--引用百度地图API-->
-    <script  type="text/javascript">
-	(function(){ window.BMap_loadScriptTime = (new Date).getTime(); document.write();})();
-	</script>
-    <script type="text/javascript" src="js/mp.js"></script>
-    <!--百度地图容器-->
-    <div style="width:98%;height:400px;margin:0 auto; border:#ccc solid 1px;font-size:12px" id="map"></div>
+	<!--高德地图-->
+   <style>
+		body { margin: 0; font: 13px/1.5 "Microsoft YaHei", "Helvetica Neue", "Sans-Serif"; min-height: 960px; min-width: 600px; }
+		.my-map { margin: 0 auto; width: 600px; height: 600px; }
+		.my-map .icon { background: url(https://lbs.amap.com/console/public/show/marker.png) no-repeat; }
+		.my-map .icon-cir { height: 31px; width: 28px; }
+		.my-map .icon-cir-red { background-position: -11px -5px; }
+		.amap-container{height: 100%;}
+	</style>
+	<div id="wrap" class="my-map">
+		<div id="mapContainer"></div>
+	</div>
+	<script src="//webapi.amap.com/maps?v=1.3&key=8325164e247e15eea68b59e89200988b"></script>
 <script>
-    //创建和初始化地图函数：
-    function initMap(){
-      createMap();//创建地图
-      setMapEvent();//设置地图事件
-      addMapControl();//向地图添加控件
-      addMapOverlay();//向地图添加覆盖物
-    }
-    
-    function createMap(){ 
-      map = new BMap.Map("map"); 
-      map.centerAndZoom(new BMap.Point(112.886232,28.221085),16);
-    }
-    function setMapEvent(){
-      map.enableScrollWheelZoom();
-      map.enableKeyboard();
-      map.enableDragging();
-      map.enableDoubleClickZoom()
-      map.enableAutoResize();
-    }
-    function addClickHandler(target,window){
-      target.addEventListener("click",function(){
-        target.openInfoWindow(window);
-      });
-    }
-    function addMapOverlay(){
-      var markers = [
-        {content:"",title:"长沙知音云信息有限公司地址：谷苑路186号湖南大学科技园创业大厦",imageOffset: {width:-23,height:-21},position:{lat:28.222267,lng:112.882028}}
-      ];
-      for(var index = 0; index < markers.length; index++ ){
-        var point = new BMap.Point(markers[index].position.lng,markers[index].position.lat);
-        var marker = new BMap.Marker(point,{icon:new BMap.Icon("icon/icon.png",new BMap.Size(20,25),{
-          imageOffset: new BMap.Size(markers[index].imageOffset.width,markers[index].imageOffset.height)
-        })});
-        var label = new BMap.Label(markers[index].title,{offset: new BMap.Size(25,5)});
-        var opts = {
-          width: 200,
-          title: markers[index].title,
-          enableMessage: false
-        };
-        var infoWindow = new BMap.InfoWindow(markers[index].content,opts);
-        marker.setLabel(label);
-        addClickHandler(marker,infoWindow);
-        map.addOverlay(marker);
-      };
-    }
-    //向地图添加控件
-    function addMapControl(){
-      var scaleControl = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
-      scaleControl.setUnit(BMAP_UNIT_IMPERIAL);
-      map.addControl(scaleControl);
-      var navControl = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
-      map.addControl(navControl);
-      var overviewControl = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:true});
-      map.addControl(overviewControl);
-    }
-    var map;
-      initMap();
-  </script>
+	!function(){
+		var infoWindow, map, level = 18,
+			center = {lng: 112.875545, lat: 28.216601},
+			features = [{type: "Marker", name: "长沙知音云信息有限公司", desc: "谷苑路186号湖南大学科技园创业大厦523", color: "red", icon: "cir", offset: {x: -9, y: -31}, lnglat: {lng: 112.87533, lat: 28.216441}}];
+
+		function loadFeatures(){
+			for(var feature, data, i = 0, len = features.length, j, jl, path; i < len; i++){
+				data = features[i];
+				switch(data.type){
+					case "Marker":
+						feature = new AMap.Marker({ map: map, position: new AMap.LngLat(data.lnglat.lng, data.lnglat.lat),
+							zIndex: 3, extData: data, offset: new AMap.Pixel(data.offset.x, data.offset.y), title: data.name,
+							content: '<div class="icon icon-' + data.icon + ' icon-'+ data.icon +'-' + data.color +'"></div>' });
+						break;
+					case "Polyline":
+						for(j = 0, jl = data.lnglat.length, path = []; j < jl; j++){
+							path.push(new AMap.LngLat(data.lnglat[j].lng, data.lnglat[j].lat));
+						}
+						feature = new AMap.Polyline({ map: map, path: path, extData: data, zIndex: 2,
+							strokeWeight: data.strokeWeight, strokeColor: data.strokeColor, strokeOpacity: data.strokeOpacity });
+						break;
+					case "Polygon":
+						for(j = 0, jl = data.lnglat.length, path = []; j < jl; j++){
+							path.push(new AMap.LngLat(data.lnglat[j].lng, data.lnglat[j].lat));
+						}
+						feature = new AMap.Polygon({ map: map, path: path, extData: data, zIndex: 1,
+							strokeWeight: data.strokeWeight, strokeColor: data.strokeColor, strokeOpacity: data.strokeOpacity,
+							fillColor: data.fillColor, fillOpacity: data.fillOpacity });
+						break;
+					default: feature = null;
+				}
+				if(feature){ AMap.event.addListener(feature, "click", mapFeatureClick); }
+			}
+		}
+
+		function mapFeatureClick(e){
+			if(!infoWindow){ infoWindow = new AMap.InfoWindow({autoMove: true}); }
+			var extData = e.target.getExtData();
+			infoWindow.setContent("<h5>" + extData.name + "</h5><div>" + extData.desc + "</div>");
+			infoWindow.open(map, e.lnglat);
+		}
+
+		map = new AMap.Map("mapContainer", {center: new AMap.LngLat(center.lng, center.lat), level: level});
+		
+		loadFeatures();
+
+		map.on('complete', function(){
+			map.plugin(["AMap.ToolBar", "AMap.OverView", "AMap.Scale"], function(){
+				map.addControl(new AMap.ToolBar);
+			map.addControl(new AMap.OverView({isOpen: true}));
+			map.addControl(new AMap.Scale);
+			});	
+		})
+		
+	}();
+	</script>
   
 </html><div class="fusion-clearfix"></div>
 
