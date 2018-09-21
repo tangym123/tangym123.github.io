@@ -4,8 +4,6 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"/>
 	<title>联系我们 &#8211; Avada Seo</title>
 <meta name='robots' content='noindex,follow' />
 <link rel='dns-prefetch' href='//s.w.org' />
@@ -192,11 +190,13 @@ var LS_Meta = {"v":"6.7.6"};
 						<div class="fusion-sep-clear"></div><div class="fusion-separator fusion-full-width-sep sep-none" style="margin-left: auto;margin-right: auto;margin-top:20px;margin-bottom:20px;"></div><!DOCTYPE html>
 
     <!--引用百度地图API-->
-    <script type="text/javascript" src="http://api.map.baidu.com/api?v=1.4"></script>
+    <script  type="text/javascript">
+	(function(){ window.BMap_loadScriptTime = (new Date).getTime(); document.write();})();
+	</script>
+    <script type="text/javascript" src="js/mp.js"></script>
     <!--百度地图容器-->
     <div style="width:98%;height:400px;margin:0 auto; border:#ccc solid 1px;font-size:12px" id="map"></div>
-
-  <script type="text/javascript">
+<script>
     //创建和初始化地图函数：
     function initMap(){
       createMap();//创建地图
@@ -223,11 +223,11 @@ var LS_Meta = {"v":"6.7.6"};
     }
     function addMapOverlay(){
       var markers = [
-        {content:"谷苑路186号湖南大学科技园创业大厦",title:"长沙知音云信息科技有限公司",imageOffset: {width:0,height:3},position:{lat:28.2221,lng:112.881965}}
+        {content:"",title:"长沙知音云信息有限公司地址：谷苑路186号湖南大学科技园创业大厦",imageOffset: {width:-23,height:-21},position:{lat:28.222267,lng:112.882028}}
       ];
       for(var index = 0; index < markers.length; index++ ){
         var point = new BMap.Point(markers[index].position.lng,markers[index].position.lat);
-        var marker = new BMap.Marker(point,{icon:new BMap.Icon("http://api.map.baidu.com/lbsapi/createmap/images/icon.png",new BMap.Size(20,25),{
+        var marker = new BMap.Marker(point,{icon:new BMap.Icon("icon/icon.png",new BMap.Size(20,25),{
           imageOffset: new BMap.Size(markers[index].imageOffset.width,markers[index].imageOffset.height)
         })});
         var label = new BMap.Label(markers[index].title,{offset: new BMap.Size(25,5)});
@@ -255,6 +255,7 @@ var LS_Meta = {"v":"6.7.6"};
     var map;
       initMap();
   </script>
+  
 </html><div class="fusion-clearfix"></div>
 
 					</div>
